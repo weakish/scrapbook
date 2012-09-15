@@ -1,2 +1,2 @@
-I've put some articles online.
-And I've mirrored them here, incase the original web site goes down.
+Some articles I've read.
+I mirrored them here, in case the original web site goes down or the author take them down.
