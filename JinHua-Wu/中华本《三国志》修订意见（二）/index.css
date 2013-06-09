@@ -1,0 +1,898 @@
+/* ::::: http://simg.sinajs.cn/blog7style/css/conf/blog/article.css ::::: */
+
+/* ::::: http://simg.sinajs.cn/blog7style/css/module/common/topbar.css ::::: */
+
+.nsinatopbar { min-width: 950px; height: 30px; overflow: hidden; font-size: 12px; font-family: "宋体"; background: url('topbar.png') repeat-x scroll 0px 0px transparent; }
+.nsinatopbar a, .nsinatopbar a:link, .nsinatopbar a:visited { color: rgb(51, 51, 51); text-decoration: none; }
+.nsinatopbar a:hover { color: rgb(51, 51, 51); text-decoration: underline; }
+.ntopbar_main { width: 950px; height: 30px; margin: 0px auto; }
+.ntopbar_logo { float: left; }
+.ntopbar_ad { float: left; padding-top: 9px; margin-left: 20px; }
+.ntopbar_login { float: right; margin-left: 10px; }
+.ntopbar_login a.login { height: 30px; line-height: 30px; display: block; float: left; overflow: hidden; text-align: center; padding-left: 11px; color: rgb(255, 255, 255); }
+.ntopbar_login a.login span { height: 30px; line-height: 30px; padding-right: 11px; display: inline-block; color: rgb(255, 255, 255); }
+.ntopbar_login a.login:link, .ntopbar_login a.login:visited, .ntopbar_login a.login:hover { background: url('ntopbar.png') no-repeat scroll 0px -42px transparent; }
+.ntopbar_login a.login:link span, .ntopbar_login a.login:visited span, .ntopbar_login a.login:hover span { background: url('ntopbar.png') no-repeat scroll right -82px transparent; text-decoration: none; cursor: pointer; }
+.ntopbar_login a.register { height: 30px; line-height: 30px; display: block; float: left; padding: 0px 11px; margin-left: 2px; color: rgb(46, 48, 146); }
+.ntopbar_login a.register:hover { background: url('ntopbar.png') repeat-x scroll 0px -123px transparent; text-decoration: none; }
+.ntopbar_loading { float: right; padding-top: 7px; margin-right: 150px; color: rgb(102, 102, 102); }
+.ntopbar_loading img { vertical-align: -3px; margin-right: 5px; }
+.nsinatopbar .horn { float: left; height: 30px; line-height: 30px; }
+.nsinatopbar .horn .horn_con { float: left; font-size: 12px; color: rgb(153, 153, 153); }
+.nsinatopbar .horn .horn_con a { margin-right: 12px; color: rgb(102, 102, 102); }
+.nsinatopbar .horn .horn_con p { background: url('icon_horn.png') no-repeat scroll 0px 8px transparent; padding: 0px 10px 0px 20px; }
+.nsinatopbar .horn .horn_con p em { color: rgb(102, 102, 102); }
+.nsinatopbar .horn a.close, .nsinatopbar .horn a.close:hover { float: right; cursor: pointer; text-decoration: none; font-size: 14px; }
+.ntopbar_floatL { float: left; position: relative; }
+.ntopbar_search { padding-top: 5px; float: left; margin-left: 13px; }
+.ntopbar_searchBtn { width: 12px; height: 12px; position: absolute; right: 5px; top: 3px; overflow: hidden; text-align: center; background: url('ntopbar.png') no-repeat scroll 0px 0px transparent; border: medium none; cursor: pointer; }
+.ntopbar_input { position: relative; width: 128px; height: 18px; float: left; border: 1px solid rgb(195, 195, 195); overflow: hidden; background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+.ntopbar_input .ntopbar_txt { padding: 0px 3px; border-width: 0px; height: 16px; line-height: 16px; width: 100px; background: none repeat scroll 0% 0% transparent; }
+.mCatSearch { position: absolute; width: 128px; border-right: 1px solid rgb(195, 195, 195); border-width: 0px 1px 1px; border-style: none solid solid; border-color: -moz-use-text-color rgb(195, 195, 195) rgb(195, 195, 195); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; }
+.mCatSearch ul {  }
+.mCatSearch li { padding: 0px 10px; height: 21px; line-height: 21px; border-top: 1px solid rgb(227, 227, 227); background: none repeat scroll 0% 0% rgb(249, 249, 249); color: rgb(153, 153, 153); cursor: pointer; }
+.mCatSearch li.current { background: none repeat scroll 0% 0% rgb(234, 234, 234); }
+.mCatSearch li span { color: rgb(147, 164, 197); }
+body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, label, dl, dt, dd, fieldset, img { margin: 0px; padding: 0px; border: 0px none; list-style: none outside none; }
+table, th, td { margin: 0px; padding: 0px; }
+body, fieldset, th, td, select, input, textarea { font-size: 12px; font-family: Verdana,"宋体",sans-serif; }
+select, input { vertical-align: middle; }
+cite, em { font-style: normal; }
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+input[type="button"], input[type="reset"], input[type="submit"], input[type="radio"], input[type="checkbox"] { cursor: pointer; }
+label { cursor: pointer; }
+.clearit { clear: both; height: 0px; overflow: hidden; }
+ins { display: none; }
+a.CP_a_fuc { margin: 0px 0px 0px 3px; font-family: "宋体"; font-size: 12px; font-weight: normal; white-space: nowrap; }
+a.CP_a_fuc cite { cursor: pointer ! important; font-family: Verdana; }
+a.CP_a_fuc:link, a.CP_a_fuc:visited, a.CP_a_fuc:hover, a.CP_a_fuc:active { text-decoration: none; }
+a.CP_a_fuc:link cite, a.CP_a_fuc:visited cite { text-decoration: none; }
+a.CP_a_fuc:hover cite, a.CP_a_fuc:active cite { text-decoration: underline; }
+.SG_colW21 { width: 210px; }
+.SG_colW73 { width: 730px; }
+.SG_colW1, .SG_colW21, .SG_colW51, .SG_colW73, .SG_colW95 { margin-left: 10px; display: inline; float: left; overflow: hidden; }
+.SG_colW21 {  }
+.SG_colFirst { margin-left: 0px; }
+.SG_conn { clear: both; margin: 0px 0px 10px; text-align: left; overflow: hidden; width: auto; height: 100%; }
+.SG_floatL { float: left; display: inline; }
+.SG_floatR { float: right; display: inline; }
+.SG_clearB { clear: both; }
+body { color: rgb(85, 85, 85); background-color: rgb(255, 255, 255); }
+textarea, input, option { color: rgb(102, 102, 102); }
+a, a:link, a:visited, a:hover, .SG_more { color: rgb(109, 88, 135); }
+.SG_txta { color: rgb(109, 88, 135); }
+.SG_txtb { color: rgb(144, 144, 144); }
+.SG_txtc { color: rgb(144, 144, 144); }
+.SG_linka a:link, .SG_linka a:visited, .SG_linka a:hover, a.SG_linka:link, a.SG_linka:visited, a.SG_linka:hover { color: rgb(85, 85, 85); }
+.SG_linkb a:link, .SG_linkb a:visited, .SG_linkb a:hover, a.SG_linkb:link, a.SG_linkb:visited, a.SG_linkb:hover { color: rgb(144, 144, 144); }
+.borderc { border: 1px solid rgb(208, 208, 208); }
+.sinabloga { background-image: none; background-repeat: no-repeat; background-position: center bottom; width: 100%; clear: both; }
+.sinablogb { background-image: none; background-repeat: no-repeat; background-position: center top; width: 100%; clear: both; }
+.sinabloghead { width: 950px; height: 265px; clear: both; margin: 0px auto; position: relative; z-index: 100; }
+.sinabloghead .headflash { width: 950px; height: 265px; overflow: hidden; position: absolute; left: 0px; top: 0px; }
+.sinabloghead .headarea { position: relative; width: 100%; height: 100%; }
+.sinabloghead .blogtoparea { position: absolute; top: 35%; left: 115px; }
+.sinabloghead .blogtitle { font-family: "微软雅黑","黑体"; font-size: 24px; color: rgb(0, 0, 0); font-weight: 300; }
+.sinabloghead .bloglink { color: rgb(51, 51, 51); padding-top: 5px; }
+.sinabloghead .bloglink .CP_a_fuc { color: rgb(0, 0, 0); margin-left: 5px; }
+.sinabloghead .blognav { position: absolute; top: 80%; left: 20px; width: 250px; height: 38px; }
+.sinabloghead .blognav .blognavInfo { position: absolute; top: 11px; left: 0px; height: 16px; }
+.sinabloghead .blognav .blognavBg { width: 100%; height: 100%; background-image: none; background-repeat: no-repeat; background-position: left top; }
+.sinabloghead .blognav span { float: left; font-size: 14px; overflow: hidden; padding: 0px 9px; background-image: url('sg_newsp.png'); background-repeat: no-repeat; background-position: right -240px; }
+.sinabloghead .blognav .last { background-image: none; padding-right: 0px; }
+.sinabloghead .blognav a, .sinabloghead .blognav a:link, .sinabloghead .blognav a:visited, .sinabloghead .blognav a:hover { color: rgb(110, 99, 91); }
+.sinabloghead .blognav a.on { font-weight: 700; }
+.sinabloghead .blognav a.on, .sinabloghead .blognav a.on:link, .sinabloghead .blognav a.on:visited, .sinabloghead .blognav a.on:hover { color: rgb(59, 59, 59); }
+.sinabloghead .adsarea { position: absolute; right: 0px; bottom: 50px; display: none; }
+.sinabloghead .adsarea .pic {  }
+.sinabloghead .adsarea .link { color: rgb(255, 255, 255); font-size: 12px; padding-top: 5px; }
+.sinablogbody { width: 950px; clear: both; margin: 0px auto; z-index: 10; }
+.sinablogfooter { width: 950px; height: 100px; clear: both; margin: 0px auto; text-align: center; padding-top: 65px; background-position: center bottom; }
+.sinablogfooter p { line-height: 22px; }
+.sinablogfooter .copyright { padding-top: 10px; }
+.SG_colWnone { width: 0px; overflow: hidden; }
+.SG_colW73 .SG_connHead { background-image: url('modelhead.png'); background-position: 1450px 0px; height: 26px; overflow: hidden; }
+.SG_colW73 .SG_connBody { background-image: url('modelbody.png'); background-position: 1450px 0px; }
+.SG_colW73 .SG_connFoot { background-image: url('modelfoot.png'); background-position: 1450px 0px; height: 1px; overflow: hidden; }
+.SG_colW21 .SG_connHead { background-image: url('modelhead.png'); background-position: 210px 0px; height: 26px; overflow: hidden; }
+.SG_colW21 .SG_connBody { background-image: url('modelbody.png'); background-position: 210px 0px; }
+.SG_colW21 .SG_connFoot { background-image: url('modelfoot.png'); background-position: 210px 0px; height: 1px; overflow: hidden; }
+.SG_j_linedot { height: 1px; overflow: hidden; background: url('sg_linedot.gif') repeat-x scroll 0% 0% transparent; clear: both; }
+.SG_j_linedot1 { background-image: url('sg_linedot.gif'); background-repeat: repeat-x; }
+.SG_connHead { font-family: "宋体",sans-serif; }
+.SG_connHead .title { float: left; padding-left: 10px; padding-top: 8px; font-weight: 700; color: rgb(51, 51, 51); }
+.SG_connHead .edit { float: right; padding-right: 10px; padding-top: 8px; }
+.SG_connHead .edit a, .SG_connHead .edit a:link, .SG_connHead .edit a:visited, .SG_connHead .edit a:hover { color: rgb(51, 51, 51); }
+.SG_connHead .edit a { float: left; }
+.SG_connHead .fontSize { float: left; }
+.SG_connHead .fontSize a { float: none; }
+.SG_connHead .fontSize a, .SG_connHead .fontSize a:link, .SG_connHead .fontSize a:visited, .SG_connHead .fontSize a:hover { text-decoration: underline; }
+.SG_icon { background-image: url('sg_icon.png'); }
+.SG_icon1 { background-position: 765px top; }
+.SG_icon7 { background-position: 585px top; }
+.SG_icon11 { background-position: 465px top; }
+.SG_icon13 { background-position: 405px top; }
+.SG_icon34 { background-position: 585px -30px; }
+.SG_icon36 { background-position: 525px -30px; }
+.SG_icon51 { background-position: 75px -30px; }
+.SG_icon110 { background-position: 525px -60px; }
+.SG_icon111 { background-position: 495px -60px; }
+.SG_icon134 { background-position: 585px -90px; }
+.SG_icon141 { background-position: 375px -92px; }
+.SG_icon142 { background-position: 345px -92px; }
+.SG_icon143 { background-position: 315px -92px; }
+.SG_icon205 { background-position: 436px -90px; }
+.SG_icon211 { background-position: -420px -229px; margin: 0px 0px 0px 9px; }
+.SG_dot { background-image: url('sg_dot.gif'); background-repeat: no-repeat; }
+a.SG_aBtn, a.SG_aBtn:link, a.SG_aBtn:visited { color: rgb(51, 51, 51); cursor: pointer; }
+a.SG_aBtn, a.SG_aBtn:link, a.SG_aBtn:visited { text-decoration: none; font-size: 12px ! important; padding: 0px 0px 0px 3px; overflow: hidden; white-space: nowrap; background-repeat: no-repeat; background-position: 0px 0px; display: inline-block; margin-right: 6px; }
+a.SG_aBtn cite { font-size: 12px ! important; line-height: 23px; padding: 0px 10px 0px 8px; display: inline-block; height: 23px; background-repeat: no-repeat; background-position: right -28px; min-width: 48px; overflow-x: visible; white-space: nowrap; text-align: center; }
+a.SG_aBtn, a.SG_aBtn cite { background-image: url('sg_newsp.png'); }
+a.SG_aBtn_ico { position: relative; }
+a.SG_aBtn_ico cite { padding-left: 26px; padding-right: 12px; text-align: left; min-width: 1px; }
+a.SG_aBtn img { position: absolute; left: 9px; top: 4px; }
+.SG_more { font-family: "宋体"; color: rgb(51, 102, 153); }
+.SG_page { width: 100%; height: 21px; line-height: 21px; clear: both; overflow: hidden; }
+.SG_pages { float: right; height: 100%; }
+.SG_cmp_revert { overflow: hidden; width: 100%; }
+.SG_cmp_revert li { width: 100%; overflow: hidden; background-position: center top; padding: 20px 0px; }
+.allComm {  }
+.allComm .allCommTit { background: url('sg_newsp_001.png') repeat-x scroll left -400px transparent; height: 25px; line-height: 25px; }
+.allComm .allCommTit .SG_floatL { padding-left: 10px; }
+.allComm .allCommTit .SG_floatL strong { margin-right: 25px; }
+.allComm .allCommTit .SG_floatR { padding-right: 10px; }
+.allComm .myCommPages { margin: 0px 0px 10px; padding: 10px 0px; }
+.allComm .noCommdate { padding: 40px 0px 50px; text-align: center; font-size: 14px; }
+.writeComm { padding: 15px 0px; width: 684px; margin: 0px auto; }
+.writeComm .wrCommTit { clear: both; width: 684px; overflow: hidden; margin-top: 18px; }
+.writeComm .wrCommTit .SG_floatL { line-height: 28px; overflow: hidden; }
+.writeComm .formTextarea { padding-bottom: 10px; }
+.writeComm .formTextarea textarea { width: 447px; height: 156px; float: left; font-size: 14px; line-height: 22px; }
+.writeComm .formTextarea .faceblk { width: 230px; height: 158px; border-width: 1px 1px 1px medium; border-style: solid solid solid none; border-color: rgb(199, 199, 199) rgb(199, 199, 199) rgb(199, 199, 199) -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; background-color: rgb(245, 245, 245); margin-top: 0px; float: left; }
+.writeComm .formTextarea .faceline1 { clear: both; padding: 8px 0px 6px 7px; height: 27px; overflow: hidden; }
+.writeComm .formTextarea .faceline1 .facestyle { float: left; }
+.writeComm .formTextarea .faceline1 .facestyle a { width: 27px; height: 27px; float: left; margin-right: 3px; outline: medium none; }
+.writeComm .formTextarea .faceline1 .facestyle img { width: 25px; height: 25px; border: 1px solid rgb(182, 182, 182); }
+.writeComm .formTextarea .faceline1 .facestyle a:hover img { border: 1px solid rgb(81, 189, 47); }
+.writeComm .formTextarea .faceline1 span { line-height: 27px; float: left; }
+.writeComm .formLogin { width: 100%; clear: both; }
+.writeComm .formLogin .SG_floatL p { margin-bottom: 8px; }
+.writeComm .formLogin .SG_floatR input { vertical-align: -2px; }
+.writeComm .formBtn { text-align: center; padding: 25px 0px 0px; width: 100%; clear: both; }
+.writeComm .formBtn p { padding: 15px 0px 25px; }
+.tb_layer_w3 { width: 111px; }
+.tb_layer_Y { position: absolute; }
+.tb_layer_Y a, .tb_layer_Y a:link, .tb_layer_Y a:visited, .tb_layer_Y a:hover { color: rgb(46, 48, 146); }
+.tb_layer_Y .tb_layer_arrow { width: 9px; height: 6px; overflow: hidden; position: relative; background: url('tb_layer.png') no-repeat scroll 0px -20px transparent; margin: 0px auto; }
+.tb_layer_Y .tb_layer_Y_main { background-color: rgb(251, 247, 225); border: 1px solid rgb(153, 153, 153); margin-top: -1px; }
+.ptList { clear: both; padding-top: 20px; overflow: hidden; padding-left: 11px; }
+.ptList .ptCell { float: left; width: 62px; display: inline; }
+.ptList .ptCell .pt_img { width: 52px; height: 52px; overflow: hidden; position: relative; }
+.ptList .ptCell .pt_img img { border: 1px solid rgb(216, 216, 216); }
+.ptList .ptCell .pt_nm { width: 62px; overflow: hidden; clear: both; font-family: "宋体"; height: 14px; font-size: 12px; margin-top: 7px; }
+.ptList .ptCell .pt_tm { font-family: "宋体"; font-size: 12px; }
+.ptList .ptCell .pt_img .new { position: absolute; display: block; width: 15px; height: 15px; overflow: hidden; left: 0px; bottom: 0px; }
+.ptList .ptCell .pt_img .del img, .ptList .ptCell .pt_img .new img { border: medium none; }
+.moreLink { clear: both; margin: 0px 20px; padding-top: 10px; padding-bottom: 17px; text-align: right; overflow: hidden; }
+.SG_colW21 .ptList { padding-top: 10px; }
+.SG_colW21 .ptCell { margin-left: 3px; }
+.articalTag { width: 100%; clear: both; word-break: break-all; line-height: 20px; }
+.articalTag td { vertical-align: top; }
+.articalTag .blog_tag { padding-right: 10px; }
+.articalTag .blog_tag h3 { display: inline; font-size: 12px; font-weight: normal; margin-right: 5px; }
+.articalTag .blog_tag h3 a { white-space: nowrap; }
+.articalTag .blog_class { width: 220px; white-space: nowrap; }
+.articalTag .blog_tag, .articalTag .blog_tag span, .articalTag .blog_tag a, .articalTag .blog_class, .articalTag .blog_class span, .articalTag .blog_class a { font-family: "宋体"; }
+a.CP_a_fuc { margin: 0px; }
+.info { padding: 20px 0px 20px 21px; }
+.info .info_img { float: left; margin-right: 10px; width: 182px; height: 182px; overflow: visible; position: relative; }
+.info .info_img img { border: 1px solid rgb(204, 204, 204); }
+.info .info_txt { float: left; }
+.info_nm { font-size: 14px; font-family: "宋体"; white-space: nowrap; }
+.info_nm .SG_icon { margin-right: 3px; margin-left: -3px; }
+.info_btn1 { clear: both; margin-top: 8px; height: 23px; }
+.info_btn1 a.SG_aBtn_ico cite { padding-right: 16px; }
+.info_btn2 { width: 190px; clear: both; }
+.info_btn2 p { clear: both; padding-top: 8px; }
+.info_btn2 a.SG_aBtn, .info_btn2 a.SG_aBtn:link, .info_btn2 a.SG_aBtn:visited { padding-bottom: 0px; padding-top: 0px; float: left; margin-right: 5px; line-height: 23px; height: 23px; }
+.info_btn2 a.SG_aBtn cite { padding-top: 0px; float: left; width: 66px; margin-right: 4px; padding-left: 0px; padding-right: 0px; }
+.info_list { clear: both; margin-left: -16px; float: left; margin-top: 12px; overflow: hidden; }
+.info_list ul { overflow: hidden; }
+.info_list li { float: left; margin-left: 16px; display: inline; font-family: Verdana; white-space: nowrap; line-height: 20px; height: 20px; }
+.info_list li span { white-space: nowrap; }
+.SG_colW21 .info { padding: 10px 14px 15px; width: 180px; overflow: hidden; }
+.SG_colW21 .info_img { float: none; margin-right: 0px; margin-bottom: 10px; }
+.SG_colW21 .info_txt { width: 182px; float: none; }
+.SG_colW21 .info_nm { text-align: center; }
+.SG_colW21 .info_btn1 { margin-top: 12px; text-align: center; margin-bottom: 15px; height: 23px; }
+.SG_colW21 .info_btn1 a { float: none; margin: 0px 5px 0px 4px; }
+.SG_colW21 .info_txt { position: relative; }
+.SG_colW21 .info_btn2 { padding-left: 17px; margin-top: 7px; margin-bottom: 15px; width: 170px; }
+.SG_colW21 .info_list { float: none; margin: 0px; padding-top: 15px; clear: both; }
+.SG_colW21 .info_list li { float: none; margin: 0px; clear: both; display: block; }
+.autoskin { display: none; }
+.sinabloghead .adsarea .wdc_HInf { display: none; }
+.tb_layer_w5 { width: 240px; }
+.tb_layer_Y .tip_arrow { background-position: 0px -340px; margin-top: -1px; }
+.tb_layer_Y .tip_layer_main { margin-top: 0px; }
+.tb_layer_Y .tip_ps { width: 220px; padding: 8px 10px 6px; overflow: hidden; font-family: "宋体"; }
+.tb_layer_Y .tip_ps .tb_friend_inputDel { display: block; float: right; width: 5px; height: 5px; overflow: hidden; background: url('tb_layer.png') no-repeat scroll -39px -341px transparent; position: absolute; right: 5px; top: 5px; }
+.tb_layer_Y .tip_ps .tb_friend_inputDel:hover { background-position: -58px -341px; }
+.shareUp { clear: both; }
+.shareUp .share { float: left; padding-top: 30px; }
+.shareUp .up { float: right; }
+.upBox { width: 60px; height: 49px; overflow: hidden; background: url('upbg.png') no-repeat scroll left top transparent; }
+.upBox .count { height: 23px; line-height: 23px; font-size: 12px; font-family: Arial; text-align: center; }
+.upBox .link { height: 25px; line-height: 25px; text-align: center; font-size: 14px; font-weight: bold; color: rgb(51, 51, 51); cursor: pointer; }
+.writeComm .formTextarea .faceline01 { clear: both; padding: 0px 0px 0px 7px; }
+.writeComm .formTextarea .faceline01 a { width: 52px; height: 52px; outline: medium none; }
+.writeComm .formTextarea .faceline01 img { border: 1px solid rgb(182, 182, 182); }
+.writeComm .formTextarea .faceline01 a:hover img { border: 1px solid rgb(81, 189, 47); }
+.writeComm .formTextarea .faceline01 li { position: relative; float: left; margin-right: 3px; margin-bottom: 3px; }
+.writeComm .formTextarea .faceline01 li .arr { position: absolute; left: 36px; top: 37px; }
+.writeComm .formTextarea .faceline01 li .arr a { border: medium none; width: auto; height: auto; }
+.writeComm .formTextarea .faceline01 li .arr a img, .writeComm .formTextarea .faceline01 li .arr a img:hover { border: medium none; }
+.info .info_img { overflow: visible; }
+.info .info_img img.sevenyearsIcon { width: 56px; height: 69px; position: absolute; right: -14px; bottom: -28px; border: medium none; background-repeat: no-repeat; }
+.wondPic { clear: both; padding-top: 10px; background-position: left bottom; overflow: hidden; }
+.wondPic ul { width: 100%; overflow: hidden; }
+.wondPic li { width: 87px; margin-left: 4px; margin-right: 5px; margin-bottom: 10px; overflow: hidden; float: left; clear: none; padding: 0px; display: inline; word-break: break-all; font-family: "宋体"; font-size: 12px; line-height: 18px; white-space: nowrap; }
+.wondPic li .pic { width: 80px; height: 80px; overflow: hidden; margin-bottom: 6px; }
+.wondPic li .pic img { width: 80px; height: 80px; overflow: hidden; }
+.wondPic .clearfix { height: 0px; overflow: hidden; }
+.wondPic ul.wondPicList { margin-top: 10px; padding-bottom: 7px; }
+.wondPic ul.wondPicList li { margin: 0px 4px 0px 3px; height: 132px; padding-bottom: 5px; }
+.relaList .atcTit_more { padding: 10px 0px 0px; }
+.relaList .natcTit_more { padding: 10px 0px 0px; }
+.clearfix:after { content: "."; clear: both; display: block; height: 0px; visibility: hidden; overflow: hidden; }
+.clearfix { display: inline-table; }
+.clearfix { display: block; }
+.atcTitList { clear: both; width: 188px; overflow: hidden; padding: 5px 11px 13px; }
+.atcTitList li { clear: both; background-position: left bottom; padding: 8px 0px 9px; }
+.atcTitList li .atcTitCell_tit { clear: both; font-family: "宋体"; font-size: 12px; white-space: nowrap; overflow: hidden; padding-left: 7px; background-position: left 5px; }
+.atcTitList li .atcTitCell_nm { clear: both; font-family: "宋体"; font-size: 12px; white-space: nowrap; overflow: hidden; padding-left: 7px; padding-top: 4px; }
+.atcTit_more { clear: both; padding-top: 10px; text-align: right; }
+.natcTit_more { clear: both; padding-top: 10px; text-align: right; }
+.relaPic { clear: both; padding-top: 10px; background-position: left bottom; overflow: hidden; }
+.relaPic li { width: 86px; height: 103px; margin-left: 4px; margin-right: 4px; overflow: hidden; float: left; clear: none; padding: 0px; display: inline; word-break: break-all; font-family: "宋体"; font-size: 12px; line-height: 18px; }
+.relaPic li img { border: 1px solid rgb(220, 220, 220); margin-bottom: 1px; }
+.relaPic .clearfix { height: 0px; overflow: hidden; }
+.clearfix:after { content: "."; clear: both; display: block; height: 0px; visibility: hidden; overflow: hidden; }
+.clearfix { display: inline-table; }
+.clearfix { display: block; }
+.artical { padding: 24px 20px 0px; clear: both; }
+.articalTitle { clear: both; line-height: 20px; padding-bottom: 10px; }
+.articalTitle span { white-space: nowrap; }
+.articalTitle .titName { font-size: 18px; font-family: "微软雅黑","黑体"; font-weight: 300; display: inline; }
+.articalTitle .time { font-family: Arial; font-size: 10px; margin-left: 5px; margin-right: 13px; }
+.articalTag { width: 100%; clear: both; word-break: break-all; line-height: 20px; }
+.articalTag td { vertical-align: top; }
+.articalTag .blog_tag { padding-right: 10px; }
+.articalTag .blog_tag h3 { display: inline; font-size: 12px; font-weight: normal; margin-right: 5px; }
+.articalTag .blog_tag h3 a { white-space: nowrap; }
+.articalTag .blog_class { width: 220px; white-space: nowrap; }
+.articalTag .blog_tag, .articalTag .blog_tag span, .articalTag .blog_tag a, .articalTag .blog_class, .articalTag .blog_class span, .articalTag .blog_class a { font-family: "宋体"; }
+.articalContent { width: 690px; clear: both; padding-top: 18px; font-size: 14px; line-height: 150%; padding-bottom: 30px; word-wrap: break-word; word-break: break-all; overflow: hidden; font-family: simsun; }
+.articalContent, .articalContent p, .articalContent span, .articalContent font { word-wrap: normal; word-break: normal; }
+.articalContent, .articalContent p, .articalContent p font, .articalContent font, .articalContent span, .articalContent table td { line-height: 150%; }
+.articalContent p { margin-bottom: 5px; }
+.articalInfo { clear: both; padding-top: 10px; }
+.articalInfo .IL { float: left; width: 65%; padding-top: 2px; }
+.articalInfo .IL span.SG_txtb { font-family: "宋体"; }
+.articalInfo .IL em { margin: 0px 2px; }
+.articalInfo .IL b { font-family: Verdana,Helvetica; font-size: 9px; }
+.articalInfo .IR { float: right; width: 35%; }
+.articalInfo .IR table { float: right; }
+.articalInfo .IR td, .articalInfo .IR th { vertical-align: top; font-weight: normal; }
+.articalInfo .IR th { width: 60px; text-align: right; }
+.articalInfo .IR span { margin-right: 5px; height: 22px; }
+.articalInfo .IR span img { margin-right: 0px; }
+.articalInfo .IR span a { word-break: break-all; }
+.articalInfo .IR .IR_list { float: left; }
+.articalInfo .IR .IR_list span { display: block; float: left; white-space: nowrap; }
+.articalfrontback { clear: both; margin: 20px 0px 0px; padding: 24px 0px; font-size: 14px; }
+.articalfrontback div { line-height: 24px; min-height: 24px; font-family: "宋体"; }
+.articalfrontback div.SG_floatL span, .articalfrontback div.SG_floatR span { clear: both; display: block; }
+.articalfrontback div.SG_floatR { text-align: right; }
+.articalfrontback div.SG_floatL, .articalfrontback div.SG_floatR { width: 340px; }
+.articalfrontback2 { margin-top: 0px; padding-top: 0px; }
+.blogreco { overflow: hidden; }
+.blogreco .TB { position: absolute; width: 100%; }
+.blogreco .TB a { float: right; display: block; width: 15px; height: 14px; margin: 5px 5px 5px 0px; }
+.blogreco .TB .btnClose { background: url('blogrecommend_hz_003.gif') repeat scroll 0% 0% transparent; }
+.blogreco .TB .btnMin { background: url('blogrecommend_hz_004.gif') repeat scroll 0% 0% transparent; }
+.blogreco .IF { width: 260px; height: 190px; border: 0px none; }
+.blogzz_zzlist { padding: 10px 10px 0px; margin-bottom: 20px; }
+.blogzz_zzlist h3 { margin: 0px 5px; font-size: 12px; height: 24px; line-height: 24px; background: url('sg_linedot.gif') repeat-x scroll left bottom transparent; }
+.blogzz_zzlist ul.ul_zzlist { margin: 0px 5px; }
+.blogzz_paged { float: right; height: 40px; line-height: 40px; }
+.blogzz_closepic { width: 10px; height: 10px; background: url('tb_layer.png') no-repeat scroll -5px -293px transparent; display: block; }
+.turnBoxzz { float: right; }
+.turnBoxzz a.SG_turn { letter-spacing: 5px; width: 86px; display: inline-block; padding: 0px 0px 0px 3px; font-family: Verdana,"宋体",sans-serif; }
+.turnBoxzz a.SG_turn cite { padding: 0px 20px 0px 32px; width: 34px; display: inline-block ! important; }
+.turnBoxzz a.SG_turn .arrow { font-size: 7px; position: absolute; right: 5px; top: 2px; }
+.turnBoxzz a.SG_turn img { left: 11px; }
+.articalInfo .IL .zznum { font-family: "宋体"; }
+.blogzz_btn { position: relative; height: 1px; }
+.blogzz_btn .SG_turn { position: relative; left: 46%; top: 8px; text-align: center; }
+.blogzz_btn a:link, .blogzz_btn a:visited, .blogzz_btn a:active { text-decoration: none; }
+.picShareFlt, .picShareQing, .picSlideBtn, .picAward { overflow: hidden; }
+.picShareFlt .share, .picShareQing .share { overflow: hidden; cursor: pointer; float: left; font-size: 12px; height: 24px; line-height: 24px; background: url('btn_share.png') repeat scroll right 0px transparent; }
+.picShareQing .share { background: url('btn_sharetoqing.png') repeat scroll right 0px transparent; }
+.picShareFlt .share span, .picShareQing .share span { float: left; display: inline; margin: 0px 6px 0px 29px; color: rgb(94, 9, 0); }
+.picShareQing .share span { margin: 0px 4px 0px 26px; color: rgb(11, 66, 149); }
+.picSlideBtn a, .picSlideBtn a:link, .picSlideBtn a:visited { width: 64px; height: 21px; line-height: 21px; display: block; background: url('multishow_bg.png') no-repeat scroll -21px -873px transparent; text-align: center; color: rgb(255, 255, 255); font-size: 12px; }
+.turnList { position: absolute; z-index: 100; width: 87px; background: none repeat scroll 0% 0% rgb(255, 255, 255); border-top: 1px solid rgb(176, 172, 194); border-left: 1px solid rgb(176, 172, 194); border-right: 1px solid rgb(176, 172, 194); }
+.turnList li { height: 21px; line-height: 21px; overflow: hidden; vertical-align: middle; border-bottom: 1px solid rgb(176, 172, 194); }
+.turnList li a { height: 21px; display: block; position: relative; background: none repeat scroll 0% 0% rgb(231, 231, 231); padding-left: 35px; color: rgb(53, 59, 57); }
+.turnList li a:hover { text-decoration: none; background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+.turnList li a img { position: absolute; left: 13px; top: 3px; }
+.wondPic { clear: both; padding-top: 10px; background-position: left bottom; overflow: hidden; }
+.wondPic ul { width: 100%; overflow: hidden; }
+.wondPic li { width: 87px; margin-left: 4px; margin-right: 5px; margin-bottom: 10px; overflow: hidden; float: left; clear: none; padding: 0px; display: inline; word-break: break-all; font-family: "宋体"; font-size: 12px; line-height: 18px; white-space: nowrap; }
+.wondPic li .pic { width: 80px; height: 80px; overflow: hidden; margin-bottom: 6px; }
+.wondPic .clearfix { height: 0px; overflow: hidden; }
+.wondPic ul.wondPicList { margin-top: 10px; padding-bottom: 7px; margin-left: 4px; }
+.wondPic ul.wondPicList li { margin: 0px 4px 0px 3px; height: 132px; padding-bottom: 5px; }
+.wondPicnSlide { position: relative; width: 172px; height: 132px; margin: 0px auto; overflow: hidden; background-position: center bottom; padding-bottom: 11px; }
+.wondPicnSlide ul { position: absolute; left: 0px; top: 0px; z-index: 9; width: 1032px; }
+.wondPicnSlide ul li { position: relative; width: 172px; height: 132px; overflow: hidden; margin: 0px; float: left; }
+.wondPicnSlide ul li img { width: 172px; }
+.wondPicnSlide ul li span { position: absolute; top: 0px; left: 0px; width: 172px; height: 32px; line-height: 32px; background: url('op_black50.png') repeat scroll 0% 0% transparent; text-align: center; font-size: 13px; color: rgb(206, 210, 209); cursor: pointer; text-decoration: none; }
+.wondPicnSlide .sNo { width: 37px; height: 9px; position: absolute; bottom: 18px; right: 6px; z-index: 10; }
+.wondPicnSlide .sNo a, .wondPicnSlide .sNo a:link { width: 9px; height: 9px; display: inline-block; margin-left: 3px; overflow: hidden; background: url('qingrec_slideico.png') repeat scroll -12px 0px transparent; text-indent: -9999px; }
+.wondPicnSlide .sNo a.current, .wondPicnSlide .sNo a.current:link { background-position: 0px 0px; }
+/* ::::: http://simg.sinajs.cn/blog7style/css/common/common.css ::::: */
+
+/* ::::: http://simg.sinajs.cn/blog7style/css/module/common/topbar.css ::::: */
+
+.nsinatopbar { min-width: 950px; height: 30px; overflow: hidden; font-size: 12px; font-family: "宋体"; background: url('topbar.png') repeat-x scroll 0px 0px transparent; }
+.nsinatopbar a, .nsinatopbar a:link, .nsinatopbar a:visited { color: rgb(51, 51, 51); text-decoration: none; }
+.nsinatopbar a:hover { color: rgb(51, 51, 51); text-decoration: underline; }
+.ntopbar_main { width: 950px; height: 30px; margin: 0px auto; }
+.ntopbar_logo { float: left; }
+.ntopbar_ad { float: left; padding-top: 9px; margin-left: 20px; }
+.ntopbar_login { float: right; margin-left: 10px; }
+.ntopbar_login a.login { height: 30px; line-height: 30px; display: block; float: left; overflow: hidden; text-align: center; padding-left: 11px; color: rgb(255, 255, 255); }
+.ntopbar_login a.login span { height: 30px; line-height: 30px; padding-right: 11px; display: inline-block; color: rgb(255, 255, 255); }
+.ntopbar_login a.login:link, .ntopbar_login a.login:visited, .ntopbar_login a.login:hover { background: url('ntopbar.png') no-repeat scroll 0px -42px transparent; }
+.ntopbar_login a.login:link span, .ntopbar_login a.login:visited span, .ntopbar_login a.login:hover span { background: url('ntopbar.png') no-repeat scroll right -82px transparent; text-decoration: none; cursor: pointer; }
+.ntopbar_login a.register { height: 30px; line-height: 30px; display: block; float: left; padding: 0px 11px; margin-left: 2px; color: rgb(46, 48, 146); }
+.ntopbar_login a.register:hover { background: url('ntopbar.png') repeat-x scroll 0px -123px transparent; text-decoration: none; }
+.ntopbar_loading { float: right; padding-top: 7px; margin-right: 150px; color: rgb(102, 102, 102); }
+.ntopbar_loading img { vertical-align: -3px; margin-right: 5px; }
+.nsinatopbar .horn { float: left; height: 30px; line-height: 30px; }
+.nsinatopbar .horn .horn_con { float: left; font-size: 12px; color: rgb(153, 153, 153); }
+.nsinatopbar .horn .horn_con a { margin-right: 12px; color: rgb(102, 102, 102); }
+.nsinatopbar .horn .horn_con p { background: url('icon_horn.png') no-repeat scroll 0px 8px transparent; padding: 0px 10px 0px 20px; }
+.nsinatopbar .horn .horn_con p em { color: rgb(102, 102, 102); }
+.nsinatopbar .horn a.close, .nsinatopbar .horn a.close:hover { float: right; cursor: pointer; text-decoration: none; font-size: 14px; }
+.ntopbar_floatL { float: left; position: relative; }
+.ntopbar_search { padding-top: 5px; float: left; margin-left: 13px; }
+.ntopbar_searchBtn { width: 12px; height: 12px; position: absolute; right: 5px; top: 3px; overflow: hidden; text-align: center; background: url('ntopbar.png') no-repeat scroll 0px 0px transparent; border: medium none; cursor: pointer; }
+.ntopbar_input { position: relative; width: 128px; height: 18px; float: left; border: 1px solid rgb(195, 195, 195); overflow: hidden; background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+.ntopbar_input .ntopbar_txt { padding: 0px 3px; border-width: 0px; height: 16px; line-height: 16px; width: 100px; background: none repeat scroll 0% 0% transparent; }
+.mCatSearch { position: absolute; width: 128px; border-right: 1px solid rgb(195, 195, 195); border-width: 0px 1px 1px; border-style: none solid solid; border-color: -moz-use-text-color rgb(195, 195, 195) rgb(195, 195, 195); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; }
+.mCatSearch ul {  }
+.mCatSearch li { padding: 0px 10px; height: 21px; line-height: 21px; border-top: 1px solid rgb(227, 227, 227); background: none repeat scroll 0% 0% rgb(249, 249, 249); color: rgb(153, 153, 153); cursor: pointer; }
+.mCatSearch li.current { background: none repeat scroll 0% 0% rgb(234, 234, 234); }
+.mCatSearch li span { color: rgb(147, 164, 197); }
+body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, label, dl, dt, dd, fieldset, img { margin: 0px; padding: 0px; border: 0px none; list-style: none outside none; }
+table, th, td { margin: 0px; padding: 0px; }
+body, fieldset, th, td, select, input, textarea { font-size: 12px; font-family: Verdana,"宋体",sans-serif; }
+select, input { vertical-align: middle; }
+cite, em { font-style: normal; }
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+input[type="button"], input[type="reset"], input[type="submit"], input[type="radio"], input[type="checkbox"] { cursor: pointer; }
+label { cursor: pointer; }
+.clearit { clear: both; height: 0px; overflow: hidden; }
+ins { display: none; }
+a.CP_a_fuc { margin: 0px 0px 0px 3px; font-family: "宋体"; font-size: 12px; font-weight: normal; white-space: nowrap; }
+a.CP_a_fuc cite { cursor: pointer ! important; font-family: Verdana; }
+a.CP_a_fuc:link, a.CP_a_fuc:visited, a.CP_a_fuc:hover, a.CP_a_fuc:active { text-decoration: none; }
+a.CP_a_fuc:link cite, a.CP_a_fuc:visited cite { text-decoration: none; }
+a.CP_a_fuc:hover cite, a.CP_a_fuc:active cite { text-decoration: underline; }
+.SG_colW21 { width: 210px; }
+.SG_colW73 { width: 730px; }
+.SG_colW1, .SG_colW21, .SG_colW51, .SG_colW73, .SG_colW95 { margin-left: 10px; display: inline; float: left; overflow: hidden; }
+.SG_colW21 {  }
+.SG_colFirst { margin-left: 0px; }
+.SG_conn { clear: both; margin: 0px 0px 10px; text-align: left; overflow: hidden; width: auto; height: 100%; }
+.SG_floatL { float: left; display: inline; }
+.SG_floatR { float: right; display: inline; }
+.SG_clearB { clear: both; }
+body { color: rgb(85, 85, 85); background-color: rgb(255, 255, 255); }
+textarea, input, option { color: rgb(102, 102, 102); }
+a, a:link, a:visited, a:hover, .SG_more { color: rgb(109, 88, 135); }
+.SG_txta { color: rgb(109, 88, 135); }
+.SG_txtb { color: rgb(144, 144, 144); }
+.SG_txtc { color: rgb(144, 144, 144); }
+.SG_linka a:link, .SG_linka a:visited, .SG_linka a:hover, a.SG_linka:link, a.SG_linka:visited, a.SG_linka:hover { color: rgb(85, 85, 85); }
+.SG_linkb a:link, .SG_linkb a:visited, .SG_linkb a:hover, a.SG_linkb:link, a.SG_linkb:visited, a.SG_linkb:hover { color: rgb(144, 144, 144); }
+.borderc { border: 1px solid rgb(208, 208, 208); }
+.sinabloga { background-image: none; background-repeat: no-repeat; background-position: center bottom; width: 100%; clear: both; }
+.sinablogb { background-image: none; background-repeat: no-repeat; background-position: center top; width: 100%; clear: both; }
+.sinabloghead { width: 950px; height: 265px; clear: both; margin: 0px auto; position: relative; z-index: 100; }
+.sinabloghead .headflash { width: 950px; height: 265px; overflow: hidden; position: absolute; left: 0px; top: 0px; }
+.sinabloghead .headarea { position: relative; width: 100%; height: 100%; }
+.sinabloghead .blogtoparea { position: absolute; top: 35%; left: 115px; }
+.sinabloghead .blogtitle { font-family: "微软雅黑","黑体"; font-size: 24px; color: rgb(0, 0, 0); font-weight: 300; }
+.sinabloghead .bloglink { color: rgb(51, 51, 51); padding-top: 5px; }
+.sinabloghead .bloglink .CP_a_fuc { color: rgb(0, 0, 0); margin-left: 5px; }
+.sinabloghead .blognav { position: absolute; top: 80%; left: 20px; width: 250px; height: 38px; }
+.sinabloghead .blognav .blognavInfo { position: absolute; top: 11px; left: 0px; height: 16px; }
+.sinabloghead .blognav .blognavBg { width: 100%; height: 100%; background-image: none; background-repeat: no-repeat; background-position: left top; }
+.sinabloghead .blognav span { float: left; font-size: 14px; overflow: hidden; padding: 0px 9px; background-image: url('sg_newsp.png'); background-repeat: no-repeat; background-position: right -240px; }
+.sinabloghead .blognav .last { background-image: none; padding-right: 0px; }
+.sinabloghead .blognav a, .sinabloghead .blognav a:link, .sinabloghead .blognav a:visited, .sinabloghead .blognav a:hover { color: rgb(110, 99, 91); }
+.sinabloghead .blognav a.on { font-weight: 700; }
+.sinabloghead .blognav a.on, .sinabloghead .blognav a.on:link, .sinabloghead .blognav a.on:visited, .sinabloghead .blognav a.on:hover { color: rgb(59, 59, 59); }
+.sinabloghead .adsarea { position: absolute; right: 0px; bottom: 50px; display: none; }
+.sinabloghead .adsarea .pic {  }
+.sinabloghead .adsarea .link { color: rgb(255, 255, 255); font-size: 12px; padding-top: 5px; }
+.sinablogbody { width: 950px; clear: both; margin: 0px auto; z-index: 10; }
+.sinablogfooter { width: 950px; height: 100px; clear: both; margin: 0px auto; text-align: center; padding-top: 65px; background-position: center bottom; }
+.sinablogfooter p { line-height: 22px; }
+.sinablogfooter .copyright { padding-top: 10px; }
+.SG_colWnone { width: 0px; overflow: hidden; }
+.SG_colW73 .SG_connHead { background-image: url('modelhead.png'); background-position: 1450px 0px; height: 26px; overflow: hidden; }
+.SG_colW73 .SG_connBody { background-image: url('modelbody.png'); background-position: 1450px 0px; }
+.SG_colW73 .SG_connFoot { background-image: url('modelfoot.png'); background-position: 1450px 0px; height: 1px; overflow: hidden; }
+.SG_colW21 .SG_connHead { background-image: url('modelhead.png'); background-position: 210px 0px; height: 26px; overflow: hidden; }
+.SG_colW21 .SG_connBody { background-image: url('modelbody.png'); background-position: 210px 0px; }
+.SG_colW21 .SG_connFoot { background-image: url('modelfoot.png'); background-position: 210px 0px; height: 1px; overflow: hidden; }
+.SG_j_linedot { height: 1px; overflow: hidden; background: url('sg_linedot.gif') repeat-x scroll 0% 0% transparent; clear: both; }
+.SG_j_linedot1 { background-image: url('sg_linedot.gif'); background-repeat: repeat-x; }
+.SG_connHead { font-family: "宋体",sans-serif; }
+.SG_connHead .title { float: left; padding-left: 10px; padding-top: 8px; font-weight: 700; color: rgb(51, 51, 51); }
+.SG_connHead .edit { float: right; padding-right: 10px; padding-top: 8px; }
+.SG_connHead .edit a, .SG_connHead .edit a:link, .SG_connHead .edit a:visited, .SG_connHead .edit a:hover { color: rgb(51, 51, 51); }
+.SG_connHead .edit a { float: left; }
+.SG_connHead .fontSize { float: left; }
+.SG_connHead .fontSize a { float: none; }
+.SG_connHead .fontSize a, .SG_connHead .fontSize a:link, .SG_connHead .fontSize a:visited, .SG_connHead .fontSize a:hover { text-decoration: underline; }
+.SG_icon { background-image: url('sg_icon.png'); }
+.SG_icon1 { background-position: 765px top; }
+.SG_icon7 { background-position: 585px top; }
+.SG_icon11 { background-position: 465px top; }
+.SG_icon13 { background-position: 405px top; }
+.SG_icon34 { background-position: 585px -30px; }
+.SG_icon36 { background-position: 525px -30px; }
+.SG_icon51 { background-position: 75px -30px; }
+.SG_icon110 { background-position: 525px -60px; }
+.SG_icon111 { background-position: 495px -60px; }
+.SG_icon134 { background-position: 585px -90px; }
+.SG_icon141 { background-position: 375px -92px; }
+.SG_icon142 { background-position: 345px -92px; }
+.SG_icon143 { background-position: 315px -92px; }
+.SG_icon205 { background-position: 436px -90px; }
+.SG_icon211 { background-position: -420px -229px; margin: 0px 0px 0px 9px; }
+.SG_dot { background-image: url('sg_dot.gif'); background-repeat: no-repeat; }
+a.SG_aBtn, a.SG_aBtn:link, a.SG_aBtn:visited { color: rgb(51, 51, 51); cursor: pointer; }
+a.SG_aBtn, a.SG_aBtn:link, a.SG_aBtn:visited { text-decoration: none; font-size: 12px ! important; padding: 0px 0px 0px 3px; overflow: hidden; white-space: nowrap; background-repeat: no-repeat; background-position: 0px 0px; display: inline-block; margin-right: 6px; }
+a.SG_aBtn cite { font-size: 12px ! important; line-height: 23px; padding: 0px 10px 0px 8px; display: inline-block; height: 23px; background-repeat: no-repeat; background-position: right -28px; min-width: 48px; overflow-x: visible; white-space: nowrap; text-align: center; }
+a.SG_aBtn, x:-moz-any-link, x:default { display: inline-block; padding: 0px 0px 0px 3px; }
+a.SG_aBtn:link, x:-moz-any-link, x:default { display: inline-block; padding: 0px 0px 0px 3px; }
+a.SG_aBtn:visited, x:-moz-any-link, x:default { display: inline-block; padding: 0px 0px 0px 3px; }
+a.SG_aBtn cite, x:-moz-any-link, x:default { display: inline-block; padding: 0px 10px 0px 8px; }
+a.SG_aBtn, a.SG_aBtn cite { background-image: url('sg_newsp.png'); }
+a.SG_aBtn_ico { position: relative; }
+a.SG_aBtn_ico cite { padding-left: 26px; padding-right: 12px; text-align: left; min-width: 1px; }
+a.SG_aBtn img { position: absolute; left: 9px; top: 4px; }
+.SG_more { font-family: "宋体"; color: rgb(51, 102, 153); }
+.SG_page { width: 100%; height: 21px; line-height: 21px; clear: both; overflow: hidden; }
+.SG_pages { float: right; height: 100%; }
+.SG_cmp_revert { overflow: hidden; width: 100%; }
+.SG_cmp_revert li { width: 100%; overflow: hidden; background-position: center top; padding: 20px 0px; }
+.allComm {  }
+.allComm .allCommTit { background: url('sg_newsp_001.png') repeat-x scroll left -400px transparent; height: 25px; line-height: 25px; }
+.allComm .allCommTit .SG_floatL { padding-left: 10px; }
+.allComm .allCommTit .SG_floatL strong { margin-right: 25px; }
+.allComm .allCommTit .SG_floatR { padding-right: 10px; }
+.allComm .myCommPages { margin: 0px 0px 10px; padding: 10px 0px; }
+.allComm .noCommdate { padding: 40px 0px 50px; text-align: center; font-size: 14px; }
+.writeComm { padding: 15px 0px; width: 684px; margin: 0px auto; }
+.writeComm .wrCommTit { clear: both; width: 684px; overflow: hidden; margin-top: 18px; }
+.writeComm .wrCommTit .SG_floatL { line-height: 28px; overflow: hidden; }
+.writeComm .formTextarea { padding-bottom: 10px; }
+.writeComm .formTextarea textarea { width: 447px; height: 156px; float: left; font-size: 14px; line-height: 22px; }
+.writeComm .formTextarea .faceblk { width: 230px; height: 158px; border-width: 1px 1px 1px medium; border-style: solid solid solid none; border-color: rgb(199, 199, 199) rgb(199, 199, 199) rgb(199, 199, 199) -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; background-color: rgb(245, 245, 245); margin-top: 0px; float: left; }
+.writeComm .formTextarea .faceline1 { clear: both; padding: 8px 0px 6px 7px; height: 27px; overflow: hidden; }
+.writeComm .formTextarea .faceline1 .facestyle { float: left; }
+.writeComm .formTextarea .faceline1 .facestyle a { width: 27px; height: 27px; float: left; margin-right: 3px; outline: medium none; }
+.writeComm .formTextarea .faceline1 .facestyle img { width: 25px; height: 25px; border: 1px solid rgb(182, 182, 182); }
+.writeComm .formTextarea .faceline1 .facestyle a:hover img { border: 1px solid rgb(81, 189, 47); }
+.writeComm .formTextarea .faceline1 span { line-height: 27px; float: left; }
+.writeComm .formLogin { width: 100%; clear: both; }
+.writeComm .formLogin .SG_floatL p { margin-bottom: 8px; }
+.writeComm .formLogin .SG_floatL p .SG_icon110 { margin-right: 2px; }
+.writeComm .formLogin .SG_floatR input { vertical-align: -2px; }
+.writeComm .formBtn { text-align: center; padding: 25px 0px 0px; width: 100%; clear: both; }
+.writeComm .formBtn p { padding: 15px 0px 25px; }
+.clearfix:after { content: "."; clear: both; display: block; height: 0px; visibility: hidden; overflow: hidden; }
+.clearfix { display: inline-table; }
+.clearfix { display: block; }
+.tb_layer_w3 { width: 111px; }
+.tb_layer_Y { position: absolute; }
+.tb_layer_Y a, .tb_layer_Y a:link, .tb_layer_Y a:visited, .tb_layer_Y a:hover { color: rgb(46, 48, 146); }
+.tb_layer_Y .tb_layer_arrow { width: 9px; height: 6px; overflow: hidden; position: relative; background: url('tb_layer.png') no-repeat scroll 0px -20px transparent; margin: 0px auto; }
+.tb_layer_Y .tb_layer_Y_main { background-color: rgb(251, 247, 225); border: 1px solid rgb(153, 153, 153); margin-top: -1px; }
+.ptList { clear: both; padding-top: 20px; overflow: hidden; padding-left: 11px; }
+.ptList .ptCell { float: left; width: 62px; display: inline; }
+.ptList .ptCell .pt_img { width: 52px; height: 52px; overflow: hidden; position: relative; }
+.ptList .ptCell .pt_img img { border: 1px solid rgb(216, 216, 216); }
+.ptList .ptCell .pt_nm { width: 62px; overflow: hidden; clear: both; font-family: "宋体"; height: 14px; font-size: 12px; margin-top: 7px; }
+.ptList .ptCell .pt_tm { font-family: "宋体"; font-size: 12px; }
+.ptList .ptCell .pt_img .new { position: absolute; display: block; width: 15px; height: 15px; overflow: hidden; left: 0px; bottom: 0px; }
+.ptList .ptCell .pt_img .del img, .ptList .ptCell .pt_img .new img { border: medium none; }
+.moreLink { clear: both; margin: 0px 20px; padding-top: 10px; padding-bottom: 17px; text-align: right; overflow: hidden; }
+.visitorList .ptCell { height: 95px; margin-top: 5px; overflow: hidden; }
+.visitorList .ptCell .pt_nm { margin-top: 5px; }
+.visitorList .ptCell .pt_tm { margin-top: 6px; }
+.SG_colW21 .ptList { padding-top: 10px; }
+.SG_colW21 .ptCell { margin-left: 3px; }
+.articalTag { width: 100%; clear: both; word-break: break-all; line-height: 20px; }
+.articalTag td { vertical-align: top; }
+.articalTag .blog_tag { padding-right: 10px; }
+.articalTag .blog_tag h3 { display: inline; font-size: 12px; font-weight: normal; margin-right: 5px; }
+.articalTag .blog_tag h3 a { white-space: nowrap; }
+.articalTag .blog_class { width: 220px; white-space: nowrap; }
+.articalTag .blog_tag, .articalTag .blog_tag span, .articalTag .blog_tag a, .articalTag .blog_class, .articalTag .blog_class span, .articalTag .blog_class a { font-family: "宋体"; }
+a.CP_a_fuc { margin: 0px; }
+.info { padding: 20px 0px 20px 21px; }
+.info .info_img { float: left; margin-right: 10px; width: 182px; height: 182px; overflow: visible; position: relative; }
+.info .info_img img { border: 1px solid rgb(204, 204, 204); }
+.info .info_txt { float: left; }
+.info_nm { font-size: 14px; font-family: "宋体"; white-space: nowrap; }
+.info_nm .SG_icon { margin-right: 3px; margin-left: -3px; }
+.info_btn1 { clear: both; margin-top: 8px; height: 23px; }
+.info_btn1 a.SG_aBtn_ico cite { padding-right: 16px; }
+.info_btn2 { width: 190px; clear: both; }
+.info_btn2 p { clear: both; padding-top: 8px; }
+.info_btn2 a.SG_aBtn, .info_btn2 a.SG_aBtn:link, .info_btn2 a.SG_aBtn:visited { padding-bottom: 0px; padding-top: 0px; float: left; margin-right: 5px; line-height: 23px; height: 23px; }
+.info_btn2 a.SG_aBtn cite { padding-top: 0px; float: left; width: 66px; margin-right: 4px; padding-left: 0px; padding-right: 0px; }
+.info_list { clear: both; margin-left: -16px; float: left; margin-top: 12px; overflow: hidden; }
+.info_list ul { overflow: hidden; }
+.info_list li { float: left; margin-left: 16px; display: inline; font-family: Verdana; white-space: nowrap; line-height: 20px; height: 20px; }
+.info_list li span { white-space: nowrap; }
+.SG_colW21 .info { padding: 10px 14px 15px; width: 180px; overflow: hidden; }
+.SG_colW21 .info_img { float: none; margin-right: 0px; margin-bottom: 10px; }
+.SG_colW21 .info_txt { width: 182px; float: none; }
+.SG_colW21 .info_nm { text-align: center; }
+.SG_colW21 .info_btn1 { margin-top: 12px; text-align: center; margin-bottom: 15px; height: 23px; }
+.SG_colW21 .info_btn1 a { float: none; margin: 0px 5px 0px 4px; }
+.SG_colW21 .info_txt { position: relative; }
+.SG_colW21 .info_btn2 { padding-left: 17px; margin-top: 7px; margin-bottom: 15px; width: 170px; }
+.SG_colW21 .info_list { float: none; margin: 0px; padding-top: 15px; clear: both; }
+.SG_colW21 .info_list li { float: none; margin: 0px; clear: both; display: block; }
+.autoskin { display: none; }
+.sinabloghead .adsarea .wdc_HInf { display: none; }
+.tb_layer_w5 { width: 240px; }
+.tb_layer_Y .tip_arrow { background-position: 0px -340px; margin-top: -1px; }
+.tb_layer_Y .tip_layer_main { margin-top: 0px; }
+.tb_layer_Y .tip_ps { width: 220px; padding: 8px 10px 6px; overflow: hidden; font-family: "宋体"; }
+.tb_layer_Y .tip_ps .tb_friend_inputDel { display: block; float: right; width: 5px; height: 5px; overflow: hidden; background: url('tb_layer.png') no-repeat scroll -39px -341px transparent; position: absolute; right: 5px; top: 5px; }
+.tb_layer_Y .tip_ps .tb_friend_inputDel:hover { background-position: -58px -341px; }
+.shareUp { clear: both; }
+.shareUp .share { float: left; padding-top: 30px; }
+.shareUp .up { float: right; }
+.upBox { width: 60px; height: 49px; overflow: hidden; background: url('upbg.png') no-repeat scroll left top transparent; }
+.upBox .count { height: 23px; line-height: 23px; font-size: 12px; font-family: Arial; text-align: center; }
+.upBox .link { height: 25px; line-height: 25px; text-align: center; font-size: 14px; font-weight: bold; color: rgb(51, 51, 51); cursor: pointer; }
+.writeComm .formTextarea .faceline01 { clear: both; padding: 0px 0px 0px 7px; }
+.writeComm .formTextarea .faceline01 a { width: 52px; height: 52px; outline: medium none; }
+.writeComm .formTextarea .faceline01 img { border: 1px solid rgb(182, 182, 182); }
+.writeComm .formTextarea .faceline01 a:hover img { border: 1px solid rgb(81, 189, 47); }
+.writeComm .formTextarea .faceline01 li { position: relative; float: left; margin-right: 3px; margin-bottom: 3px; }
+.writeComm .formTextarea .faceline01 li .arr { position: absolute; left: 36px; top: 37px; }
+.writeComm .formTextarea .faceline01 li .arr a { border: medium none; width: auto; height: auto; }
+.writeComm .formTextarea .faceline01 li .arr a img, .writeComm .formTextarea .faceline01 li .arr a img:hover { border: medium none; }
+.info .info_img { overflow: visible; }
+.info .info_img img.sevenyearsIcon { width: 56px; height: 69px; position: absolute; right: -14px; bottom: -28px; border: medium none; background-repeat: no-repeat; }
+.discoverWall .con .row:nth-child(3) .cell:first-child .content, .discoverWall .con .row:nth-child(3) .cell:first-child .content img { overflow: hidden; position: static; }
+.discoverWall .con .row:nth-child(3) .cell:last-child .content, .discoverWall .con .row:nth-child(3) .cell:last-child .content img, .discoverWall .con .row:nth-child(3) .cell:last-child .txtopa { overflow: hidden; position: static; }
+/* ::::: http://simg.sinajs.cn/blog7style/css/blog/blog.css ::::: */
+
+.atcTitList { clear: both; width: 188px; overflow: hidden; padding: 5px 11px 13px; }
+.atcTitList li { clear: both; background-position: left bottom; padding: 8px 0px 9px; }
+.atcTitList li .atcTitCell_tit { clear: both; font-family: "宋体"; font-size: 12px; white-space: nowrap; overflow: hidden; padding-left: 7px; background-position: left 5px; }
+.atcTitList li .atcTitCell_nm { clear: both; font-family: "宋体"; font-size: 12px; white-space: nowrap; overflow: hidden; padding-left: 7px; padding-top: 4px; }
+.atcTit_more { clear: both; padding-top: 10px; text-align: right; }
+.natcTit_more { clear: both; padding-top: 10px; text-align: right; }
+.relaPic { clear: both; padding-top: 10px; background-position: left bottom; overflow: hidden; }
+.relaPic li { width: 86px; height: 103px; margin-left: 4px; margin-right: 4px; overflow: hidden; float: left; clear: none; padding: 0px; display: inline; word-break: break-all; font-family: "宋体"; font-size: 12px; line-height: 18px; }
+.relaPic li img { border: 1px solid rgb(220, 220, 220); margin-bottom: 1px; }
+.relaPic .clearfix { height: 0px; overflow: hidden; }
+.clearfix:after { content: "."; clear: both; display: block; height: 0px; visibility: hidden; overflow: hidden; }
+.clearfix { display: inline-table; }
+.clearfix { display: block; }
+.artical { padding: 24px 20px 0px; clear: both; }
+.articalTitle { clear: both; line-height: 20px; padding-bottom: 10px; }
+.articalTitle span { white-space: nowrap; }
+.articalTitle .titName { font-size: 18px; font-family: "微软雅黑","黑体"; font-weight: 300; display: inline; }
+.articalTitle .time { font-family: Arial; font-size: 10px; margin-left: 5px; margin-right: 13px; }
+.articalTag { width: 100%; clear: both; word-break: break-all; line-height: 20px; }
+.articalTag td { vertical-align: top; }
+.articalTag .blog_tag { padding-right: 10px; }
+.articalTag .blog_tag h3 { display: inline; font-size: 12px; font-weight: normal; margin-right: 5px; }
+.articalTag .blog_tag h3 a { white-space: nowrap; }
+.articalTag .blog_class { width: 220px; white-space: nowrap; }
+.articalTag .blog_tag, .articalTag .blog_tag span, .articalTag .blog_tag a, .articalTag .blog_class, .articalTag .blog_class span, .articalTag .blog_class a { font-family: "宋体"; }
+.articalContent { width: 690px; clear: both; padding-top: 18px; font-size: 14px; line-height: 150%; padding-bottom: 30px; word-wrap: break-word; word-break: break-all; overflow: hidden; font-family: simsun; }
+.articalContent, .articalContent p, .articalContent span, .articalContent font { word-wrap: normal; word-break: normal; }
+.articalContent, .articalContent p, .articalContent p font, .articalContent font, .articalContent span, .articalContent table td { line-height: 150%; }
+.articalContent p { margin-bottom: 5px; }
+.articalInfo { clear: both; padding-top: 10px; }
+.articalInfo .IL { float: left; width: 65%; padding-top: 2px; }
+.articalInfo .IL span.SG_txtb { font-family: "宋体"; }
+.articalInfo .IL em { margin: 0px 2px; }
+.articalInfo .IL b { font-family: Verdana,Helvetica; font-size: 9px; }
+.articalInfo .IR { float: right; width: 35%; }
+.articalInfo .IR table { float: right; }
+.articalInfo .IR td, .articalInfo .IR th { vertical-align: top; font-weight: normal; }
+.articalInfo .IR th { width: 60px; text-align: right; }
+.articalInfo .IR span { margin-right: 5px; height: 22px; }
+.articalInfo .IR span img { margin-right: 0px; }
+.articalInfo .IR span a { word-break: break-all; }
+.articalInfo .IR .IR_list { float: left; }
+.articalInfo .IR .IR_list span { display: block; float: left; white-space: nowrap; }
+.articalfrontback { clear: both; margin: 20px 0px 0px; padding: 24px 0px; font-size: 14px; }
+.articalfrontback div { line-height: 24px; min-height: 24px; font-family: "宋体"; }
+.articalfrontback div.SG_floatL span, .articalfrontback div.SG_floatR span { clear: both; display: block; }
+.articalfrontback div.SG_floatR { text-align: right; }
+.articalfrontback div.SG_floatL, .articalfrontback div.SG_floatR { width: 340px; }
+.articalfrontback2 { margin-top: 0px; padding-top: 0px; }
+.blogreco { overflow: hidden; }
+.blogreco .TB { position: absolute; width: 100%; }
+.blogreco .TB a { float: right; display: block; width: 15px; height: 14px; margin: 5px 5px 5px 0px; }
+.blogreco .TB .btnClose { background: url('blogrecommend_hz_003.gif') repeat scroll 0% 0% transparent; }
+.blogreco .TB .btnMin { background: url('blogrecommend_hz_004.gif') repeat scroll 0% 0% transparent; }
+.blogreco .IF { width: 260px; height: 190px; border: 0px none; }
+.blogzz_zzlist { padding: 10px 10px 0px; margin-bottom: 20px; }
+.blogzz_zzlist h3 { margin: 0px 5px; font-size: 12px; height: 24px; line-height: 24px; background: url('sg_linedot.gif') repeat-x scroll left bottom transparent; }
+.blogzz_zzlist ul.ul_zzlist { margin: 0px 5px; }
+.blogzz_paged { float: right; height: 40px; line-height: 40px; }
+.blogzz_closepic { width: 10px; height: 10px; background: url('tb_layer.png') no-repeat scroll -5px -293px transparent; display: block; }
+.turnBoxzz { float: right; }
+.turnBoxzz .SG_turn { letter-spacing: 5px; width: 86px; }
+.turnBoxzz .SG_turn cite { padding: 0px 20px 0px 32px; width: 34px; display: inline-block ! important; }
+.turnBoxzz .SG_turn .arrow { font-size: 7px; position: absolute; right: 5px; top: 2px; }
+.turnBoxzz a.SG_turn img { left: 11px; }
+.articalInfo .IL .zznum { font-family: "宋体"; }
+.blogzz_btn { position: relative; height: 1px; }
+.blogzz_btn .SG_turn { position: relative; left: 46%; top: 8px; text-align: center; }
+.blogzz_btn a:link, .blogzz_btn a:visited, .blogzz_btn a:active { text-decoration: none; }
+.picShareFlt, .picShareQing, .picSlideBtn, .picAward { overflow: hidden; }
+.picShareFlt .share, .picShareQing .share { overflow: hidden; cursor: pointer; float: left; font-size: 12px; height: 24px; line-height: 24px; background: url('btn_share.png') repeat scroll right 0px transparent; }
+.picShareQing .share { background: url('btn_sharetoqing.png') repeat scroll right 0px transparent; }
+.picShareFlt .share span, .picShareQing .share span { float: left; display: inline; margin: 0px 6px 0px 29px; color: rgb(94, 9, 0); }
+.picShareQing .share span { margin: 0px 4px 0px 26px; color: rgb(11, 66, 149); }
+.picSlideBtn a, .picSlideBtn a.picSlideBtn:link a:visited { width: 64px; height: 21px; line-height: 21px; display: block; background: url('multishow_bg_001.png') no-repeat scroll -21px -873px transparent; text-align: center; color: rgb(255, 255, 255); font-size: 12px; }
+.wondPic { clear: both; padding-top: 10px; background-position: left bottom; overflow: hidden; }
+.wondPic ul { width: 100%; overflow: hidden; }
+.wondPic li { width: 87px; margin-left: 4px; margin-right: 5px; margin-bottom: 10px; overflow: hidden; float: left; clear: none; padding: 0px; display: inline; word-break: break-all; font-family: "宋体"; font-size: 12px; line-height: 18px; white-space: nowrap; }
+.wondPic li .pic { width: 80px; height: 80px; overflow: hidden; margin-bottom: 6px; }
+.wondPic li .pic img { width: 80px; height: 80px; overflow: hidden; }
+.wondPic .clearfix { height: 0px; overflow: hidden; }
+.wondPic ul.wondPicList { margin-top: 10px; padding-bottom: 7px; margin-left: 4px; }
+.wondPic ul.wondPicList { padding-bottom: 7px; margin-left: 4px; }
+.wondPic ul.wondPicList li { margin: 0px 1px 0px 4px; height: 126px; padding-bottom: 5px; }
+.wondPicnSlide { position: relative; width: 172px; height: 132px; margin: 0px auto; overflow: hidden; background-position: center bottom; padding-bottom: 11px; }
+.wondPicnSlide ul { position: absolute; left: 0px; top: 0px; z-index: 9; width: 1032px; }
+.wondPicnSlide ul li { position: relative; width: 172px; height: 132px; overflow: hidden; margin: 0px; float: left; }
+.wondPicnSlide ul li img { width: 172px; }
+.wondPicnSlide ul li span { position: absolute; top: 0px; left: 0px; width: 172px; height: 32px; line-height: 32px; background: url('op_black50.png') repeat scroll 0% 0% transparent; text-align: center; font-size: 13px; color: rgb(206, 210, 209); cursor: pointer; text-decoration: none; }
+.wondPicnSlide .sNo { width: 37px; height: 9px; position: absolute; bottom: 18px; right: 6px; z-index: 10; }
+.wondPicnSlide .sNo a, .wondPicnSlide .sNo a:link { width: 9px; height: 9px; display: inline-block; margin-left: 3px; overflow: hidden; background: url('qingrec_slideico.png') repeat scroll -12px 0px transparent; text-indent: -9999px; }
+.wondPicnSlide .sNo a.current, .wondPicnSlide .sNo a.current:link { background-position: 0px 0px; }
+.relaList .atcTit_more { padding: 10px 0px 0px; }
+.relaList .natcTit_more { padding: 10px 0px 0px; }
+/* ::::: http://simg.sinajs.cn/blog7style/css/module/common/blog.css ::::: */
+
+.atcTitList { clear: both; width: 188px; overflow: hidden; padding: 5px 11px 13px; }
+.atcTitList li { clear: both; background-position: left bottom; padding: 8px 0px 9px; }
+.atcTitList li .atcTitCell_tit { clear: both; font-family: "宋体"; font-size: 12px; white-space: nowrap; overflow: hidden; padding-left: 7px; background-position: left 5px; }
+.atcTitList li .atcTitCell_nm { clear: both; font-family: "宋体"; font-size: 12px; white-space: nowrap; overflow: hidden; padding-left: 7px; padding-top: 4px; }
+.atcTit_more { clear: both; padding-top: 10px; text-align: right; }
+.natcTit_more { clear: both; padding-top: 10px; text-align: right; }
+.relaPic { clear: both; padding-top: 10px; background-position: left bottom; overflow: hidden; }
+.relaPic li { width: 86px; height: 103px; margin-left: 4px; margin-right: 4px; overflow: hidden; float: left; clear: none; padding: 0px; display: inline; word-break: break-all; font-family: "宋体"; font-size: 12px; line-height: 18px; }
+.relaPic li img { border: 1px solid rgb(220, 220, 220); margin-bottom: 1px; }
+.relaPic .clearfix { height: 0px; overflow: hidden; }
+.clearfix:after { content: "."; clear: both; display: block; height: 0px; visibility: hidden; overflow: hidden; }
+.clearfix { display: inline-table; }
+.clearfix { display: block; }
+.artical { padding: 24px 20px 0px; clear: both; }
+.articalTitle { clear: both; line-height: 20px; padding-bottom: 10px; }
+.articalTitle span { white-space: nowrap; }
+.articalTitle .titName { font-size: 18px; font-family: "微软雅黑","黑体"; font-weight: 300; display: inline; }
+.articalTitle .time { font-family: Arial; font-size: 10px; margin-left: 5px; margin-right: 13px; }
+.articalTag { width: 100%; clear: both; word-break: break-all; line-height: 20px; }
+.articalTag td { vertical-align: top; }
+.articalTag .blog_tag { padding-right: 10px; }
+.articalTag .blog_tag h3 { display: inline; font-size: 12px; font-weight: normal; margin-right: 5px; }
+.articalTag .blog_tag h3 a { white-space: nowrap; }
+.articalTag .blog_class { width: 220px; white-space: nowrap; }
+.articalTag .blog_tag, .articalTag .blog_tag span, .articalTag .blog_tag a, .articalTag .blog_class, .articalTag .blog_class span, .articalTag .blog_class a { font-family: "宋体"; }
+.articalContent { width: 690px; clear: both; padding-top: 18px; font-size: 14px; line-height: 150%; padding-bottom: 30px; word-wrap: break-word; word-break: break-all; overflow: hidden; font-family: simsun; }
+.articalContent, .articalContent p, .articalContent span, .articalContent font { word-wrap: normal; word-break: normal; }
+.articalContent, .articalContent p, .articalContent p font, .articalContent font, .articalContent span, .articalContent table td { line-height: 150%; }
+.articalContent p { margin-bottom: 5px; }
+.articalInfo { clear: both; padding-top: 10px; }
+.articalInfo .IL { float: left; width: 65%; padding-top: 2px; }
+.articalInfo .IL span.SG_txtb { font-family: "宋体"; }
+.articalInfo .IL em { margin: 0px 2px; }
+.articalInfo .IL b { font-family: Verdana,Helvetica; font-size: 9px; }
+.articalInfo .IR { float: right; width: 35%; }
+.articalInfo .IR table { float: right; }
+.articalInfo .IR td, .articalInfo .IR th { vertical-align: top; font-weight: normal; }
+.articalInfo .IR th { width: 60px; text-align: right; }
+.articalInfo .IR span { margin-right: 5px; height: 22px; }
+.articalInfo .IR span img { margin-right: 0px; }
+.articalInfo .IR span a { word-break: break-all; }
+.articalInfo .IR .IR_list { float: left; }
+.articalInfo .IR .IR_list span { display: block; float: left; white-space: nowrap; }
+.articalfrontback { clear: both; margin: 20px 0px 0px; padding: 24px 0px; font-size: 14px; }
+.articalfrontback div { line-height: 24px; min-height: 24px; font-family: "宋体"; }
+.articalfrontback div.SG_floatL span, .articalfrontback div.SG_floatR span { clear: both; display: block; }
+.articalfrontback div.SG_floatR { text-align: right; }
+.articalfrontback div.SG_floatL, .articalfrontback div.SG_floatR { width: 340px; }
+.articalfrontback2 { margin-top: 0px; padding-top: 0px; }
+.blogreco { overflow: hidden; }
+.blogreco .TB { position: absolute; width: 100%; }
+.blogreco .TB a { float: right; display: block; width: 15px; height: 14px; margin: 5px 5px 5px 0px; }
+.blogreco .TB .btnClose { background: url('blogrecommend_hz_003.gif') repeat scroll 0% 0% transparent; }
+.blogreco .TB .btnMin { background: url('blogrecommend_hz_004.gif') repeat scroll 0% 0% transparent; }
+.blogreco .IF { width: 260px; height: 190px; border: 0px none; }
+.blogzz_zzlist { padding: 10px 10px 0px; margin-bottom: 20px; }
+.blogzz_zzlist h3 { margin: 0px 5px; font-size: 12px; height: 24px; line-height: 24px; background: url('sg_linedot.gif') repeat-x scroll left bottom transparent; }
+.blogzz_zzlist ul.ul_zzlist { margin: 0px 5px; }
+.blogzz_paged { float: right; height: 40px; line-height: 40px; }
+.blogzz_closepic { width: 10px; height: 10px; background: url('tb_layer.png') no-repeat scroll -5px -293px transparent; display: block; }
+.turnBoxzz { float: right; }
+.turnBoxzz a.SG_turn { letter-spacing: 5px; width: 86px; display: inline-block; padding: 0px 0px 0px 3px; font-family: Verdana,"宋体",sans-serif; }
+.turnBoxzz a.SG_turn cite { padding: 0px 20px 0px 32px; width: 34px; display: inline-block ! important; }
+.turnBoxzz a.SG_turn .arrow { font-size: 7px; position: absolute; right: 5px; top: 2px; }
+.turnBoxzz a.SG_turn img { left: 11px; }
+.articalInfo .IL .zznum { font-family: "宋体"; }
+.blogzz_btn { position: relative; height: 1px; }
+.blogzz_btn .SG_turn { position: relative; left: 46%; top: 8px; text-align: center; }
+.blogzz_btn a:link, .blogzz_btn a:visited, .blogzz_btn a:active { text-decoration: none; }
+.picShareFlt, .picShareQing, .picSlideBtn, .picAward { overflow: hidden; }
+.picShareFlt .share, .picShareQing .share { overflow: hidden; cursor: pointer; float: left; font-size: 12px; height: 24px; line-height: 24px; background: url('btn_share.png') repeat scroll right 0px transparent; }
+.picShareQing .share { background: url('btn_sharetoqing.png') repeat scroll right 0px transparent; }
+.picShareFlt .share span, .picShareQing .share span { float: left; display: inline; margin: 0px 6px 0px 29px; color: rgb(94, 9, 0); }
+.picShareQing .share span { margin: 0px 4px 0px 26px; color: rgb(11, 66, 149); }
+.picSlideBtn a, .picSlideBtn a:link, .picSlideBtn a:visited { width: 64px; height: 21px; line-height: 21px; display: block; background: url('multishow_bg.png') no-repeat scroll -21px -873px transparent; text-align: center; color: rgb(255, 255, 255); font-size: 12px; }
+.turnList { position: absolute; z-index: 100; width: 87px; background: none repeat scroll 0% 0% rgb(255, 255, 255); border-top: 1px solid rgb(176, 172, 194); border-left: 1px solid rgb(176, 172, 194); border-right: 1px solid rgb(176, 172, 194); }
+.turnList li { height: 21px; line-height: 21px; overflow: hidden; vertical-align: middle; border-bottom: 1px solid rgb(176, 172, 194); }
+.turnList li a { height: 21px; display: block; position: relative; background: none repeat scroll 0% 0% rgb(231, 231, 231); padding-left: 35px; color: rgb(53, 59, 57); }
+.turnList li a:hover { text-decoration: none; background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+.turnList li a img { position: absolute; left: 13px; top: 3px; }
+.wondPic { clear: both; padding-top: 10px; background-position: left bottom; overflow: hidden; }
+.wondPic ul { width: 100%; overflow: hidden; }
+.wondPic li { width: 87px; margin-left: 4px; margin-right: 5px; margin-bottom: 10px; overflow: hidden; float: left; clear: none; padding: 0px; display: inline; word-break: break-all; font-family: "宋体"; font-size: 12px; line-height: 18px; white-space: nowrap; }
+.wondPic li .pic { width: 80px; height: 80px; overflow: hidden; margin-bottom: 6px; }
+.wondPic .clearfix { height: 0px; overflow: hidden; }
+.wondPic ul.wondPicList { margin-top: 10px; padding-bottom: 7px; margin-left: 4px; }
+.wondPic ul.wondPicList li { margin: 0px 4px 0px 3px; height: 132px; padding-bottom: 5px; }
+.wondPicnSlide { position: relative; width: 172px; height: 132px; margin: 0px auto; overflow: hidden; background-position: center bottom; padding-bottom: 11px; }
+.wondPicnSlide ul { position: absolute; left: 0px; top: 0px; z-index: 9; width: 1032px; }
+.wondPicnSlide ul li { position: relative; width: 172px; height: 132px; overflow: hidden; margin: 0px; float: left; }
+.wondPicnSlide ul li img { width: 172px; }
+.wondPicnSlide ul li span { position: absolute; top: 0px; left: 0px; width: 172px; height: 32px; line-height: 32px; background: url('op_black50.png') repeat scroll 0% 0% transparent; text-align: center; font-size: 13px; color: rgb(206, 210, 209); cursor: pointer; text-decoration: none; }
+.wondPicnSlide .sNo { width: 37px; height: 9px; position: absolute; bottom: 18px; right: 6px; z-index: 10; }
+.wondPicnSlide .sNo a, .wondPicnSlide .sNo a:link { width: 9px; height: 9px; display: inline-block; margin-left: 3px; overflow: hidden; background: url('qingrec_slideico.png') repeat scroll -12px 0px transparent; text-indent: -9999px; }
+.wondPicnSlide .sNo a.current, .wondPicnSlide .sNo a.current:link { background-position: 0px 0px; }
+/* ::::: http://simg.sinajs.cn/blog7newtpl/css/8/8_4/t.css ::::: */
+
+body { color: rgb(50, 62, 50); }
+a, a:link, a:visited, a:hover, .SG_more { color: rgb(6, 139, 164); }
+.SG_txta { color: rgb(6, 139, 164); }
+.SG_txtb { color: rgb(99, 113, 96); }
+.SG_txtc { color: rgb(99, 113, 96); }
+.SG_linka a:link, .SG_linka a:visited, .SG_linka a:hover, a.SG_linka:link, a.SG_linka:visited, a.SG_linka:hover { color: rgb(50, 62, 50); }
+.SG_linkb a:link, .SG_linkb a:visited, .SG_linkb a:hover, a.SG_linkb:link, a.SG_linkb:visited, a.SG_linkb:hover { color: rgb(99, 113, 96); }
+.borderc { border-color: rgb(168, 184, 202); }
+.sinabloghead .blogtitle, .sinabloghead .blogtitle a, .sinabloghead .blogtitle a:link, .sinabloghead .blogtitle a:visited, .sinabloghead .blogtitle a:hover, .sinabloghead .blogtitle .CP_a_fuc { color: rgb(0, 0, 0); }
+.sinabloghead .bloglink, .sinabloghead .bloglink a, .sinabloghead .bloglink a:link, .sinabloghead .bloglink a:visited, .sinabloghead .bloglink a:hover { color: rgb(12, 12, 12); }
+.sinabloghead .bloglink .CP_a_fuc { color: rgb(23, 23, 24); }
+.sinabloghead .blognav a, .sinabloghead .blognav a:link, .sinabloghead .blognav a:visited, .sinabloghead .blognav a:hover { color: rgb(96, 96, 98); }
+.sinabloghead .blognav a.on, .sinabloghead .blognav a.on:link, .sinabloghead .blognav a.on:visited, .sinabloghead .blognav a.on:hover { color: rgb(0, 0, 0); }
+.SG_connHead .title, .SG_connHead .title a, .SG_connHead .title a:link, .SG_connHead .title a:visited, .SG_connHead .title a:hover, .SG_connHead .tip, .SG_connHead .tip a, .SG_connHead .tip a:link, .SG_connHead .tip a:visited, .SG_connHead .tip a:hover, .SG_connHead .edit, .SG_connHead .edit a, .SG_connHead .edit a:link, .SG_connHead .edit a:visited, .SG_connHead .edit a:hover, .SG_connHead .tip_r, .SG_connHead .tip_r a, .SG_connHead .tip_r a:link, .SG_connHead .tip_r a:visited, .SG_connHead .tip_r a:hover, .SG_connHead .fontSize, .SG_connHead .fontSize a, .SG_connHead .fontSize a:link, .SG_connHead .fontSize a:visited, .SG_connHead .fontSize a:hover, .menuList ul li.current, .menuList ul li.current a, .menuList ul li.current a:link, .menuList ul li.current a:visited, .menuList ul li.current a:hover, .menuList ul li.current em.SG_txtc { color: rgb(70, 68, 69); }
+.sinablogfooter, .sinablogfooter a:link, .sinablogfooter a:visited, .sinablogfooter a:hover { color: rgb(65, 71, 75); }
+a.SG_aBtn, a.SG_aBtn:link, a.SG_aBtn:visited { color: rgb(50, 62, 50); }
+body { background-color: rgb(201, 220, 232); }
+.sinablogb { background-image: url('sinablogb.jpg'); }
+.sinabloghead {  }
+.sinabloga { background-image: url('sinabloga.jpg'); }
+.sinablogfooter { height: 190px; }
+.sinabloghead .blogtoparea { top: 33%; left: 100px; }
+.sinabloghead .blognav { top: 65%; left: 86px; }
+.sinabloghead .blognav .blognavInfo { top: 0px; left: 3px; }
+.sinabloghead .blognav .blognavBg { background-image: none; }
+.sinabloghead .blognav span { padding: 0px 9px; background-image: url('sg_newsp_002.png'); }
+.SG_colW95 .SG_connHead, .SG_colW73 .SG_connHead, .SG_colW51 .SG_connHead, .SG_colW21 .SG_connHead, .blogads .ad_head { background-image: url('modelhead_001.png'); }
+.SG_colW95 .SG_connHead, .SG_colW73 .SG_connHead, .SG_colW51 .SG_connHead, .SG_colW21 .SG_connHead { height: 26px; }
+.SG_colW95 .SG_connBody, .SG_colW73 .SG_connBody, .SG_colW51 .SG_connBody, .SG_colW21 .SG_connBody, .blogads .ad_body { background-image: url('modelbody_001.png'); }
+.SG_colW95 .SG_connFoot, .SG_colW73 .SG_connFoot, .SG_colW51 .SG_connFoot, .SG_colW21 .SG_connFoot, .blogads .ad_foot { background-image: url('modelfoot_001.png'); }
+.SG_colW95 .SG_connFoot, .SG_colW73 .SG_connFoot, .SG_colW51 .SG_connFoot, .SG_colW21 .SG_connFoot { height: 1px; }
+.SG_j_linedot, .SG_j_linedot1 { background-image: url('sg_linedot_001.gif'); }
+.SG_dot { background-image: url('sg_dot_001.gif'); }
+.allComm .allCommTit { background-image: url('sg_newsp_002.png'); }
+a.SG_aBtn, a.SG_aBtn cite { background-image: url('sg_newsp_002.png'); }
+.sinabloghead .adsarea { display: none; right: 0px; bottom: 50px; }
+.sinabloghead .adsarea .pic { display: none; }
+.sinabloghead .adsarea .link { color: rgb(255, 255, 255); }
+.sinabloghead .adsarea .other { display: none; }
+.sinabloghead .headflash { width: 950px; height: 265px; }
+.sinabloghead .blogtoparea { left: 100px; top: 33%; }
+.sinabloghead .blognav { left: 86px; top: 65%; }
+a.bshareDiv, #bsPanel, #bsMorePanel, #bshareF { border: medium none; background: none repeat scroll 0% 0% transparent; padding: 0px; margin: 0px; font: 12px/14px Helvetica,Calibri,Tahoma,Arial,宋体,sans-serif; }
+#bsPanel div, #bsMorePanel div, #bshareF div { display: block; }
+div.buzzButton { cursor: pointer; font-weight: bold; }
+a.bshareDiv .bsPromo, div.bshare-custom .bsPromo { display: none; position: absolute; z-index: 100; }
+div.bshare-custom .bsPromo.bsPromo2 { background: url('bshare_promo_sprite.gif') no-repeat scroll 0% 0% transparent; cursor: pointer; }
+#bsBox { display: none; z-index: 100000001; font-size: 12px; background: url('background-opaque-dark.gif') repeat scroll 0% 0% transparent ! important; padding: 6px ! important; border-radius: 5px 5px 5px 5px; }
+#bsClose { cursor: pointer; position: absolute; z-index: 10000000; color: rgb(102, 102, 102); font-weight: bold; font-family: Helvetica,Arial; font-size: 14px; line-height: 20px; }
+#bsTop { color: rgb(102, 102, 102); background: none repeat scroll 0% 0% rgb(242, 242, 242); height: 24px; line-height: 24px; border-bottom: 1px solid rgb(232, 232, 232); }
+#bsTop span { margin-left: 15px; float: left; }
+#bsFrameDiv, #bsMorePanel { border: medium none; background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+#bsReturn { float: right; margin-right: 36px; text-align: right; cursor: pointer; line-height: 24px; color: rgb(102, 102, 102); opacity: 0.5; }
+#bsReturn:hover { text-decoration: underline; opacity: 1; }
+.bshare-custom { font-size: 13px; line-height: 16px ! important; }
+.bshare-custom a { padding-left: 19px; height: 16px; text-decoration: none; display: none; vertical-align: middle; cursor: pointer; color: rgb(51, 51, 51); margin-right: 3px; opacity: 1; }
+.bshare-custom a:hover { text-decoration: underline; opacity: 0.75; }
+.bshare-custom .bshare-more { padding-left: 0px ! important; color: rgb(51, 51, 51) ! important; display: inline-block; }
+.bshare-custom .bshare-douban { background: url('top_logos_sprite.png') no-repeat scroll 0px -36px transparent; display: inline-block; }
+.bshare-custom .bshare-kaixin001 { background: url('top_logos_sprite.png') no-repeat scroll 0px -126px transparent; display: inline-block; }
+.bshare-custom .bshare-msn { background: url('top_logos_sprite.png') no-repeat scroll 0px -144px transparent; display: inline-block; }
+.bshare-custom .bshare-qzone { background: url('top_logos_sprite.png') no-repeat scroll 0px -234px transparent; display: inline-block; }
+.bshare-custom .bshare-renren { background: url('top_logos_sprite.png') no-repeat scroll 0px -252px transparent; display: inline-block; }
+.bshare-custom .bshare-sinaminiblog { background: url('top_logos_sprite.png') no-repeat scroll 0px -270px transparent; display: inline-block; }
+.bshare-custom #bshare-more-icon, .bshare-custom .bshare-more-icon { background: url('more.png') no-repeat scroll 0% 0% transparent; padding-left: 19px ! important; }
+.bshare-custom .bshare-more.more-style-addthis { background: url('more-style-addthis.png') no-repeat scroll 0% 0% transparent; }
+div.bsClear { clear: both; height: 0px; line-height: 0; overflow: hidden; font-size: 0px; }
+.bsLogoLink:hover { text-decoration: underline; }
+.bshare-custom { font-size: 13px; line-height: 16px ! important; }
+.bshare-custom a { padding-left: 19px; height: 16px; text-decoration: none; display: none; vertical-align: middle; cursor: pointer; color: rgb(51, 51, 51); margin-right: 3px; opacity: 1; }
+.bshare-custom a:hover { text-decoration: underline; opacity: 0.75; }
+.bshare-custom .bshare-more { padding-left: 0px ! important; color: rgb(51, 51, 51) ! important; display: inline-block; }
+.bshare-custom .bshare-douban { background: url('top_logos_sprite.png') no-repeat scroll 0px -36px transparent; display: inline-block; }
+.bshare-custom .bshare-kaixin001 { background: url('top_logos_sprite.png') no-repeat scroll 0px -126px transparent; display: inline-block; }
+.bshare-custom .bshare-msn { background: url('top_logos_sprite.png') no-repeat scroll 0px -144px transparent; display: inline-block; }
+.bshare-custom .bshare-qzone { background: url('top_logos_sprite.png') no-repeat scroll 0px -234px transparent; display: inline-block; }
+.bshare-custom .bshare-renren { background: url('top_logos_sprite.png') no-repeat scroll 0px -252px transparent; display: inline-block; }
+.bshare-custom .bshare-sinaminiblog { background: url('top_logos_sprite.png') no-repeat scroll 0px -270px transparent; display: inline-block; }
+.bshare-custom #bshare-more-icon, .bshare-custom .bshare-more-icon { background: url('more.png') no-repeat scroll 0% 0% transparent; padding-left: 19px ! important; }
+.bshare-custom .bshare-more.more-style-addthis { background: url('more-style-addthis.png') no-repeat scroll 0% 0% transparent; }
+/* ::::: http://simg.sinajs.cn/blog7style/css/module/layer/layer20.css ::::: */
+
+a.bsSiteLink { text-decoration: none; color: rgb(102, 102, 102); }
+a.bsSiteLink:hover { text-decoration: underline; }
+div.bsTitle { padding: 0px 8px; border-bottom: 1px solid rgb(232, 232, 232); color: rgb(102, 102, 102); background: none repeat scroll 0% 0% rgb(242, 242, 242); text-align: left; }
+div.buzzButton { cursor: pointer; }
+div.bsRlogo, div.bsRlogoSel { width: 68px; float: left; margin: 0px; padding: 2px 0px; }
+div.bsRlogo a, div.bsRlogoSel a { float: left; }
+div.bsLogo, div.bsLogoSel { float: left; width: 111px; text-align: left; height: auto; padding: 2px 4px; margin: 2px 0px; white-space: nowrap; overflow: hidden; }
+div.bsLogo, div.bsRlogo { border: 1px solid rgb(255, 255, 255); background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+div.bsLogo a, div.bsLogoSel a { display: block; height: 16px; line-height: 16px; padding: 0px 0px 0px 24px; text-decoration: none; float: left; overflow: hidden; }
+div.bsLogo a, div.bsRlogo a { color: rgb(102, 102, 102); border: medium none; }
+div.bsLogoLink { width: 121px; overflow: hidden; background: none repeat scroll 0% 0% rgb(255, 255, 255); float: left; margin: 3px 0px; }
+#bsPanel { position: absolute; z-index: 100000000; font-size: 12px; width: 258px; background: url('background-opaque-dark.png') repeat scroll 0% 0% transparent; padding: 6px; border-radius: 5px 5px 5px 5px; }
+div.bsClear { clear: both; height: 0px; line-height: 0; font-size: 0px; overflow: hidden; }
+a.bsSiteLink { text-decoration: none; color: rgb(102, 102, 102); }
+a.bsSiteLink:hover { text-decoration: underline; }
+div.bsTitle { padding: 0px 8px; border-bottom: 1px solid rgb(232, 232, 232); color: rgb(102, 102, 102); background: none repeat scroll 0% 0% rgb(242, 242, 242); text-align: left; }
+div.buzzButton { cursor: pointer; }
+div.bsRlogo, div.bsRlogoSel { width: 68px; float: left; margin: 0px; padding: 2px 0px; }
+div.bsRlogo a, div.bsRlogoSel a { float: left; }
+div.bsLogo, div.bsLogoSel { float: left; width: 111px; text-align: left; height: auto; padding: 2px 4px; margin: 2px 0px; white-space: nowrap; overflow: hidden; }
+div.bsLogo, div.bsRlogo { border: 1px solid rgb(255, 255, 255); background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+div.bsLogo a, div.bsLogoSel a { display: block; height: 16px; line-height: 16px; padding: 0px 0px 0px 24px; text-decoration: none; float: left; overflow: hidden; }
+div.bsLogo a, div.bsRlogo a { color: rgb(102, 102, 102); border: medium none; }
+div.bsLogoLink { width: 121px; overflow: hidden; background: none repeat scroll 0% 0% rgb(255, 255, 255); float: left; margin: 3px 0px; }
+#bsPanel { position: absolute; z-index: 100000000; font-size: 12px; width: 258px; background: url('background-opaque-dark.png') repeat scroll 0% 0% transparent; padding: 6px; border-radius: 5px 5px 5px 5px; }
+div.bsClear { clear: both; height: 0px; line-height: 0; font-size: 0px; overflow: hidden; }

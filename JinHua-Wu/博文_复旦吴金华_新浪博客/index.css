@@ -1,0 +1,221 @@
+/* ::::: http://simg.sinajs.cn/blog7style/css/conf/blog/articlelist.css ::::: */
+
+/* ::::: http://simg.sinajs.cn/blog7style/css/module/common/topbar.css ::::: */
+
+.nsinatopbar { min-width: 950px; height: 30px; overflow: hidden; font-size: 12px; font-family: "宋体"; background: url('topbar.png') repeat-x scroll 0px 0px transparent; }
+.nsinatopbar a, .nsinatopbar a:link, .nsinatopbar a:visited { color: rgb(51, 51, 51); text-decoration: none; }
+.nsinatopbar a:hover { color: rgb(51, 51, 51); text-decoration: underline; }
+.ntopbar_main { width: 950px; height: 30px; margin: 0px auto; }
+.ntopbar_logo { float: left; }
+.ntopbar_ad { float: left; padding-top: 9px; margin-left: 20px; }
+.ntopbar_login { float: right; margin-left: 10px; }
+.ntopbar_login a.login { height: 30px; line-height: 30px; display: block; float: left; overflow: hidden; text-align: center; padding-left: 11px; color: rgb(255, 255, 255); }
+.ntopbar_login a.login span { height: 30px; line-height: 30px; padding-right: 11px; display: inline-block; color: rgb(255, 255, 255); }
+.ntopbar_login a.login:link, .ntopbar_login a.login:visited, .ntopbar_login a.login:hover { background: url('ntopbar.png') no-repeat scroll 0px -42px transparent; }
+.ntopbar_login a.login:link span, .ntopbar_login a.login:visited span, .ntopbar_login a.login:hover span { background: url('ntopbar.png') no-repeat scroll right -82px transparent; text-decoration: none; cursor: pointer; }
+.ntopbar_login a.register { height: 30px; line-height: 30px; display: block; float: left; padding: 0px 11px; margin-left: 2px; color: rgb(46, 48, 146); }
+.ntopbar_login a.register:hover { background: url('ntopbar.png') repeat-x scroll 0px -123px transparent; text-decoration: none; }
+.ntopbar_loading { float: right; padding-top: 7px; margin-right: 150px; color: rgb(102, 102, 102); }
+.ntopbar_loading img { vertical-align: -3px; margin-right: 5px; }
+.nsinatopbar .horn { float: left; height: 30px; line-height: 30px; }
+.nsinatopbar .horn .horn_con { float: left; font-size: 12px; color: rgb(153, 153, 153); }
+.nsinatopbar .horn .horn_con a { margin-right: 12px; color: rgb(102, 102, 102); }
+.nsinatopbar .horn .horn_con p { background: url('icon_horn.png') no-repeat scroll 0px 8px transparent; padding: 0px 10px 0px 20px; }
+.nsinatopbar .horn .horn_con p em { color: rgb(102, 102, 102); }
+.nsinatopbar .horn a.close, .nsinatopbar .horn a.close:hover { float: right; cursor: pointer; text-decoration: none; font-size: 14px; }
+.ntopbar_floatL { float: left; position: relative; }
+.ntopbar_search { padding-top: 5px; float: left; margin-left: 13px; }
+.ntopbar_searchBtn { width: 12px; height: 12px; position: absolute; right: 5px; top: 3px; overflow: hidden; text-align: center; background: url('ntopbar.png') no-repeat scroll 0px 0px transparent; border: medium none; cursor: pointer; }
+.ntopbar_input { position: relative; width: 128px; height: 18px; float: left; border: 1px solid rgb(195, 195, 195); overflow: hidden; background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+.ntopbar_input .ntopbar_txt { padding: 0px 3px; border-width: 0px; height: 16px; line-height: 16px; width: 100px; background: none repeat scroll 0% 0% transparent; }
+.mCatSearch { position: absolute; width: 128px; border-right: 1px solid rgb(195, 195, 195); border-width: 0px 1px 1px; border-style: none solid solid; border-color: -moz-use-text-color rgb(195, 195, 195) rgb(195, 195, 195); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; }
+.mCatSearch ul {  }
+.mCatSearch li { padding: 0px 10px; height: 21px; line-height: 21px; border-top: 1px solid rgb(227, 227, 227); background: none repeat scroll 0% 0% rgb(249, 249, 249); color: rgb(153, 153, 153); cursor: pointer; }
+.mCatSearch li.current { background: none repeat scroll 0% 0% rgb(234, 234, 234); }
+.mCatSearch li span { color: rgb(147, 164, 197); }
+body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, label, dl, dt, dd, fieldset, img { margin: 0px; padding: 0px; border: 0px none; list-style: none outside none; }
+body, fieldset, th, td, select, input, textarea { font-size: 12px; font-family: Verdana,"宋体",sans-serif; }
+select, input { vertical-align: middle; }
+cite, em { font-style: normal; }
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+input[type="button"], input[type="reset"], input[type="submit"], input[type="radio"], input[type="checkbox"] { cursor: pointer; }
+.clearit { clear: both; height: 0px; overflow: hidden; }
+a.CP_a_fuc { margin: 0px 0px 0px 3px; font-family: "宋体"; font-size: 12px; font-weight: normal; white-space: nowrap; }
+a.CP_a_fuc cite { cursor: pointer ! important; font-family: Verdana; }
+a.CP_a_fuc:link, a.CP_a_fuc:visited, a.CP_a_fuc:hover, a.CP_a_fuc:active { text-decoration: none; }
+a.CP_a_fuc:link cite, a.CP_a_fuc:visited cite { text-decoration: none; }
+a.CP_a_fuc:hover cite, a.CP_a_fuc:active cite { text-decoration: underline; }
+.SG_colW21 { width: 210px; }
+.SG_colW73 { width: 730px; }
+.SG_colW1, .SG_colW21, .SG_colW51, .SG_colW73, .SG_colW95 { margin-left: 10px; display: inline; float: left; overflow: hidden; }
+.SG_colW21 {  }
+.SG_colFirst { margin-left: 0px; }
+.SG_conn { clear: both; margin: 0px 0px 10px; text-align: left; overflow: hidden; width: auto; height: 100%; }
+body { color: rgb(85, 85, 85); background-color: rgb(255, 255, 255); }
+textarea, input, option { color: rgb(102, 102, 102); }
+a, a:link, a:visited, a:hover, .SG_more { color: rgb(109, 88, 135); }
+.SG_txtc { color: rgb(144, 144, 144); }
+.SG_linka a:link, .SG_linka a:visited, .SG_linka a:hover, a.SG_linka:link, a.SG_linka:visited, a.SG_linka:hover { color: rgb(85, 85, 85); }
+.sinabloga { background-image: none; background-repeat: no-repeat; background-position: center bottom; width: 100%; clear: both; }
+.sinablogb { background-image: none; background-repeat: no-repeat; background-position: center top; width: 100%; clear: both; }
+.sinabloghead { width: 950px; height: 265px; clear: both; margin: 0px auto; position: relative; z-index: 100; }
+.sinabloghead .headflash { width: 950px; height: 265px; overflow: hidden; position: absolute; left: 0px; top: 0px; }
+.sinabloghead .headarea { position: relative; width: 100%; height: 100%; }
+.sinabloghead .blogtoparea { position: absolute; top: 35%; left: 115px; }
+.sinabloghead .blogtitle { font-family: "微软雅黑","黑体"; font-size: 24px; color: rgb(0, 0, 0); font-weight: 300; }
+.sinabloghead .bloglink { color: rgb(51, 51, 51); padding-top: 5px; }
+.sinabloghead .bloglink .CP_a_fuc { color: rgb(0, 0, 0); margin-left: 5px; }
+.sinabloghead .blognav { position: absolute; top: 80%; left: 20px; width: 250px; height: 38px; }
+.sinabloghead .blognav .blognavInfo { position: absolute; top: 11px; left: 0px; height: 16px; }
+.sinabloghead .blognav .blognavBg { width: 100%; height: 100%; background-image: none; background-repeat: no-repeat; background-position: left top; }
+.sinabloghead .blognav span { float: left; font-size: 14px; overflow: hidden; padding: 0px 9px; background-image: url('sg_newsp.png'); background-repeat: no-repeat; background-position: right -240px; }
+.sinabloghead .blognav .last { background-image: none; padding-right: 0px; }
+.sinabloghead .blognav a, .sinabloghead .blognav a:link, .sinabloghead .blognav a:visited, .sinabloghead .blognav a:hover { color: rgb(110, 99, 91); }
+.sinabloghead .blognav a.on { font-weight: 700; }
+.sinabloghead .blognav a.on, .sinabloghead .blognav a.on:link, .sinabloghead .blognav a.on:visited, .sinabloghead .blognav a.on:hover { color: rgb(59, 59, 59); }
+.sinabloghead .adsarea { position: absolute; right: 0px; bottom: 50px; display: none; }
+.sinabloghead .adsarea .pic {  }
+.sinabloghead .adsarea .link { color: rgb(255, 255, 255); font-size: 12px; padding-top: 5px; }
+.sinablogbody { width: 950px; clear: both; margin: 0px auto; z-index: 10; }
+.sinablogfooter { width: 950px; height: 100px; clear: both; margin: 0px auto; text-align: center; padding-top: 65px; background-position: center bottom; }
+.sinablogfooter p { line-height: 22px; }
+.sinablogfooter .copyright { padding-top: 10px; }
+.SG_colWnone { width: 0px; overflow: hidden; }
+.SG_colW73 .SG_connHead { background-image: url('modelhead.png'); background-position: 1450px 0px; height: 26px; overflow: hidden; }
+.SG_colW73 .SG_connBody { background-image: url('modelbody.png'); background-position: 1450px 0px; }
+.SG_colW73 .SG_connFoot { background-image: url('modelfoot.png'); background-position: 1450px 0px; height: 1px; overflow: hidden; }
+.SG_colW21 .SG_connHead { background-image: url('modelhead.png'); background-position: 210px 0px; height: 26px; overflow: hidden; }
+.SG_colW21 .SG_connBody { background-image: url('modelbody.png'); background-position: 210px 0px; }
+.SG_colW21 .SG_connFoot { background-image: url('modelfoot.png'); background-position: 210px 0px; height: 1px; overflow: hidden; }
+.SG_j_line { height: 1px; overflow: hidden; background: url('sg_line.gif') repeat-x scroll 0% 0% transparent; clear: both; }
+.SG_j_linedot1 { background-image: url('sg_linedot.gif'); background-repeat: repeat-x; }
+.SG_connHead { font-family: "宋体",sans-serif; }
+.SG_connHead .title { float: left; padding-left: 10px; padding-top: 8px; font-weight: 700; color: rgb(51, 51, 51); }
+.SG_connHead .title em { font-weight: normal; }
+.SG_connHead .edit { float: right; padding-right: 10px; padding-top: 8px; }
+.SG_icon { background-image: url('sg_icon.png'); }
+.SG_icon11 { background-position: 465px top; }
+.SG_icon16 { background-position: 315px top; }
+.SG_icon18 { background-position: 255px top; }
+.SG_icon105 { background-position: 675px -60px; }
+.SG_dot { background-image: url('sg_dot.gif'); background-repeat: no-repeat; }
+a.SG_aBtn, a.SG_aBtn:link, a.SG_aBtn:visited { color: rgb(51, 51, 51); cursor: pointer; }
+a.SG_aBtn, a.SG_aBtn:link, a.SG_aBtn:visited { text-decoration: none; font-size: 12px ! important; padding: 0px 0px 0px 3px; display: inline-block; overflow: hidden; white-space: nowrap; background-repeat: no-repeat; background-position: 0px 0px; margin-right: 6px; }
+a.SG_aBtn cite { font-size: 12px ! important; line-height: 23px; padding: 0px 10px 0px 8px; display: inline-block; height: 23px; background-repeat: no-repeat; background-position: right -28px; min-width: 48px; overflow-x: visible; white-space: nowrap; text-align: center; }
+a.SG_aBtn, x:-moz-any-link, x:default { display: inline-block; padding: 0px 0px 0px 3px; }
+a.SG_aBtn:link, x:-moz-any-link, x:default { display: inline-block; padding: 0px 0px 0px 3px; }
+a.SG_aBtn:visited, x:-moz-any-link, x:default { display: inline-block; padding: 0px 0px 0px 3px; }
+a.SG_aBtn cite, x:-moz-any-link, x:default { display: inline-block; padding: 0px 10px 0px 8px; }
+a.SG_aBtn, a.SG_aBtn cite { background-image: url('sg_newsp.png'); }
+a.SG_aBtnB, a.SG_aBtnB cite { color: rgb(51, 51, 153); background-image: url('sg_btnb.png'); }
+.SG_page { width: 100%; height: 21px; line-height: 21px; clear: both; overflow: hidden; }
+.SG_pages { float: right; height: 100%; }
+.SG_pages li { float: left; height: 100%; margin: 0px 2px; font-family: Arial; }
+.SG_pages a { display: block; height: 19px; padding: 0px 5px; line-height: 19px; float: left; border-width: 1px; border-style: solid; font-family: Arial; font-size: 11px; text-align: center; text-decoration: none; }
+.SG_pages a:hover { text-decoration: none; }
+.SG_pgon { font-weight: bold; padding: 0px 3px; }
+.SG_pgprev a, .SG_pgnext a { width: 62px; height: 21px; line-height: 21px; padding: 0px; border: medium none; font-size: 12px; background-repeat: no-repeat; background-position: 0px 0px; font-family: "宋体"; }
+.SG_pgprev a:hover, .SG_pgnext a:hover { background-position: 0px -21px; }
+.SG_pages a:link, .SG_pages a:visited { color: rgb(116, 131, 150); }
+.SG_pages a:hover { color: rgb(153, 0, 0); }
+.SG_pages a { border-color: rgb(204, 204, 204); background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+.SG_pgprev a, .SG_pgnext a { background-image: url('cp_page.png'); }
+.SG_pgprev a:hover, .SG_pgnext a:hover { color: rgb(67, 96, 156); }
+.SG_input { height: 15px; padding-top: 3px; padding-left: 3px; font-family: "宋体"; }
+.menuList { clear: both; padding: 10px 6px; width: 198px; overflow: hidden; }
+.menuList ul { clear: both; }
+.menuList ul li { width: 198px; padding-top: 1px; line-height: 22px; font-size: 14px; font-family: "宋体"; }
+.menuList ul li .menuCell_main { clear: both; }
+.menuList ul li .menuCell_bot { width: 198px; height: 1px; clear: both; overflow: hidden; }
+.menuList ul li.current { background-image: url('sg_newsp.png'); background-position: left -80px; background-repeat: no-repeat; }
+.menuList ul li.current .menuCell_bot { background-image: url('sg_newsp.png'); background-position: left -185px; background-repeat: no-repeat; }
+.menuList ul li.current strong {  }
+.menuList ul li .SG_dot { background-position: 5px 9px; padding-left: 14px; display: block; }
+.menuList .SG_j_line { clear: both; margin-top: 5px; margin-bottom: 7px; }
+.menuList ul li.current, .menuList ul li.current a, .menuList ul li.current a:link, .menuList ul li.current a:visited, .menuList ul li.current a:hover, .menuList ul li.current em.SG_txtc { color: rgb(51, 51, 51); }
+.blog_classList { padding-top: 15px; }
+.blog_classList ul li {  }
+.blog_classList ul li .menuCell_main { padding-right: 15px; }
+.blog_classList ul li.current { padding-top: 5px; }
+.blog_classList ul li .menuCell_main .SG_icon11 { margin-left: 5px; vertical-align: 1px; }
+.fileList { padding-top: 15px; }
+.fileList .fileCell { clear: both; min-height: 25px; overflow: visible; font-size: 14px; font-family: "宋体"; }
+.fileList .fileList_year { clear: both; height: 19px; padding-top: 6px; overflow: hidden; padding-left: 14px; background-position: 5px 11px; cursor: pointer; }
+.fileList .fileList_year span { float: left; }
+.fileList .fileList_year em { float: left; margin-left: 10px; width: 7px; height: 8px; margin-top: 3px; margin-right: 5px; background: url('menuarrow_default.gif') no-repeat scroll left -20px transparent; }
+.fileList .fileList_month { clear: both; display: none; }
+.fileList ul li { clear: both; overflow: hidden; padding: 0px; line-height: normal; }
+.fileList .fileList_month li .menuCell_main { padding-left: 15px; height: 17px; padding-top: 7px; }
+.fileCell_open .fileList_year em { background: url('menuarrow_default.gif') no-repeat scroll left top transparent; }
+.fileCell_open .fileList_month { display: block; }
+a.CP_a_fuc { margin: 0px; }
+.autoskin { display: none; }
+.sinabloghead .adsarea .wdc_HInf { display: none; }
+.article_blk { clear: both; padding: 12px 21px 40px; }
+.articleTop { clear: both; background-position: left bottom; min-height: 27px; padding-top: 4px; }
+.articleNav { float: right; }
+.articleNav span { float: left; font-family: "宋体"; font-size: 12px; }
+.articleNav span.border { margin: 4px 5px 0px; }
+.articleNav span em { float: left; margin-top: 5px; }
+.articleNav span img { margin-right: 2px; float: left; margin-top: 4px; }
+.articleNav span img.SG_icon105 { margin-top: 0px; }
+.articleNav span a { float: left; }
+.articleNav span a em { cursor: pointer; }
+.articleList { clear: both; padding-bottom: 20px; }
+.articleCell { height: 26px; padding-top: 8px; background-position: left bottom; }
+.articleCell .atc_main { width: 410px; white-space: nowrap; overflow: hidden; float: left; padding-left: 11px; background-position: left 7px; }
+.articleCell .atc_ic_f { float: left; }
+.articleCell .atc_ic_b { float: left; margin-left: 2px; padding-top: 2px; }
+.articleCell .atc_ic_b img { float: left; margin-right: 1px; }
+.articleCell .atc_title { float: left; font-family: "宋体"; font-size: 14px; padding-top: 2px; }
+.articleCell .atc_info { float: right; }
+.articleCell .atc_tm { font-size: 10px; float: left; text-align: right; margin-right: 4px; padding-top: 1px; }
+.articleCell .atc_data { margin-right: 9px; float: left; }
+.articleCell .atc_set { float: left; }
+.searchAtc_blk { clear: both; padding: 15px 0px 20px 11px; height: 24px; }
+.searchAtc_blk .SG_input { width: 100px; vertical-align: 7px; margin-right: 10px; }
+/* ::::: http://simg.sinajs.cn/blog7newtpl/css/8/8_4/t.css ::::: */
+
+body { color: rgb(50, 62, 50); }
+a, a:link, a:visited, a:hover, .SG_more { color: rgb(6, 139, 164); }
+.SG_txtc { color: rgb(99, 113, 96); }
+.SG_linka a:link, .SG_linka a:visited, .SG_linka a:hover, a.SG_linka:link, a.SG_linka:visited, a.SG_linka:hover { color: rgb(50, 62, 50); }
+.sinabloghead .blogtitle, .sinabloghead .blogtitle a, .sinabloghead .blogtitle a:link, .sinabloghead .blogtitle a:visited, .sinabloghead .blogtitle a:hover, .sinabloghead .blogtitle .CP_a_fuc { color: rgb(0, 0, 0); }
+.sinabloghead .bloglink, .sinabloghead .bloglink a, .sinabloghead .bloglink a:link, .sinabloghead .bloglink a:visited, .sinabloghead .bloglink a:hover { color: rgb(12, 12, 12); }
+.sinabloghead .bloglink .CP_a_fuc { color: rgb(23, 23, 24); }
+.sinabloghead .blognav a, .sinabloghead .blognav a:link, .sinabloghead .blognav a:visited, .sinabloghead .blognav a:hover { color: rgb(96, 96, 98); }
+.sinabloghead .blognav a.on, .sinabloghead .blognav a.on:link, .sinabloghead .blognav a.on:visited, .sinabloghead .blognav a.on:hover { color: rgb(0, 0, 0); }
+.SG_connHead .title, .SG_connHead .title a, .SG_connHead .title a:link, .SG_connHead .title a:visited, .SG_connHead .title a:hover, .SG_connHead .tip, .SG_connHead .tip a, .SG_connHead .tip a:link, .SG_connHead .tip a:visited, .SG_connHead .tip a:hover, .SG_connHead .edit, .SG_connHead .edit a, .SG_connHead .edit a:link, .SG_connHead .edit a:visited, .SG_connHead .edit a:hover, .SG_connHead .tip_r, .SG_connHead .tip_r a, .SG_connHead .tip_r a:link, .SG_connHead .tip_r a:visited, .SG_connHead .tip_r a:hover, .SG_connHead .fontSize, .SG_connHead .fontSize a, .SG_connHead .fontSize a:link, .SG_connHead .fontSize a:visited, .SG_connHead .fontSize a:hover, .menuList ul li.current, .menuList ul li.current a, .menuList ul li.current a:link, .menuList ul li.current a:visited, .menuList ul li.current a:hover, .menuList ul li.current em.SG_txtc { color: rgb(70, 68, 69); }
+.sinablogfooter, .sinablogfooter a:link, .sinablogfooter a:visited, .sinablogfooter a:hover { color: rgb(65, 71, 75); }
+a.SG_aBtn, a.SG_aBtn:link, a.SG_aBtn:visited { color: rgb(50, 62, 50); }
+body { background-color: rgb(201, 220, 232); }
+.sinablogb { background-image: url('sinablogb.jpg'); }
+.sinabloghead {  }
+.sinabloga { background-image: url('sinabloga.jpg'); }
+.sinablogfooter { height: 190px; }
+.sinabloghead .blogtoparea { top: 33%; left: 100px; }
+.sinabloghead .blognav { top: 65%; left: 86px; }
+.sinabloghead .blognav .blognavInfo { top: 0px; left: 3px; }
+.sinabloghead .blognav .blognavBg { background-image: none; }
+.sinabloghead .blognav span { padding: 0px 9px; background-image: url('sg_newsp_001.png'); }
+.SG_colW95 .SG_connHead, .SG_colW73 .SG_connHead, .SG_colW51 .SG_connHead, .SG_colW21 .SG_connHead, .blogads .ad_head { background-image: url('modelhead_001.png'); }
+.SG_colW95 .SG_connHead, .SG_colW73 .SG_connHead, .SG_colW51 .SG_connHead, .SG_colW21 .SG_connHead { height: 26px; }
+.SG_colW95 .SG_connBody, .SG_colW73 .SG_connBody, .SG_colW51 .SG_connBody, .SG_colW21 .SG_connBody, .blogads .ad_body { background-image: url('modelbody_001.png'); }
+.SG_colW95 .SG_connFoot, .SG_colW73 .SG_connFoot, .SG_colW51 .SG_connFoot, .SG_colW21 .SG_connFoot, .blogads .ad_foot { background-image: url('modelfoot_001.png'); }
+.SG_colW95 .SG_connFoot, .SG_colW73 .SG_connFoot, .SG_colW51 .SG_connFoot, .SG_colW21 .SG_connFoot { height: 1px; }
+.SG_j_line, .SG_j_line1 { background-image: url('sg_line_001.gif'); }
+.SG_j_linedot, .SG_j_linedot1 { background-image: url('sg_linedot_001.gif'); }
+.SG_dot { background-image: url('sg_dot_001.gif'); }
+.menuList ul li.current, .menuList ul li.current .menuCell_bot { background-image: url('sg_newsp_001.png'); }
+a.SG_aBtn, a.SG_aBtn cite { background-image: url('sg_newsp_001.png'); }
+a.SG_aBtnB, a.SG_aBtnB cite { color: rgb(51, 51, 153); background-image: url('sg_btnb.png'); }
+.sinabloghead .adsarea { display: none; right: 0px; bottom: 50px; }
+.sinabloghead .adsarea .pic { display: none; }
+.sinabloghead .adsarea .link { color: rgb(255, 255, 255); }
+.sinabloghead .adsarea .other { display: none; }
+.sinabloghead .headflash { width: 950px; height: 265px; }
+.sinabloghead .blogtoparea { left: 100px; top: 33%; }
+.sinabloghead .blognav { left: 86px; top: 65%; }
+/* ::::: http://simg.sinajs.cn/blog7style/css/module/layer/layer20.css ::::: */
+
